@@ -26,10 +26,10 @@ export function Works() {
                     Meus trabalhos
                   </p>
                 </div>
-                <TitleH3>
+                <h3 className="font-display md:text-display-xl text-display-md font-normal pb-4">
                   Alguns dos <span className="italic">meus trabalhos</span>{' '}
                   feito com amor
-                </TitleH3>
+                </h3>
               </div>
               {works.slice(0, 1).map(work => (
                 <WorkItem
