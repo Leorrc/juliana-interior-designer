@@ -1,16 +1,7 @@
 import { Button } from '@material-tailwind/react'
 import { WorkItem } from './WorkItem'
-import { tailed } from 'tailed-js'
 
 import works from '../../data/works.json'
-
-const TitleH3 = tailed('h3')`
-  font-display
-  md:text-display-xl
-  text-display-md 
-  font-normal 
-  pb-4
-`
 
 export function Works() {
   return (
