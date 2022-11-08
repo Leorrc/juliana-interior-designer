@@ -1,5 +1,5 @@
 import { HeaderTest } from './components/HeaderTest'
-import { HeroTest } from './components/HeroTest'
+import { Hero } from './components/HeroTest'
 import { About } from './components/About'
 import { Metrics } from './components/Metrics'
 import { Services } from './components/03-Services/Services'
@@ -13,7 +13,7 @@ export function App() {
   return (
     <>
       <HeaderTest />
-      <HeroTest />
+      <Hero />
       <About />
       <Metrics />
       <Services />

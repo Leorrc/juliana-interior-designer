@@ -3,7 +3,7 @@ import socialData from '../../data/social.json'
 
 export function Footer() {
   return (
-    <footer>
+    <footer className="bg-bege-300">
       <div className="container mx-auto">
         <div className="mt-2 md:mb-20 mb-10">
           <hr className="text-neutral-300"></hr>

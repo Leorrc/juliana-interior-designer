@@ -19,7 +19,7 @@ export function Metrics() {
                 250
               </p>
               <p className="text-body-sm font-normal tracking-wider pt-2">
-                EMPLOYEES ON <br></br>WORLDWIDE
+                APOSTAS QUE <br></br>WORLDWIDE
               </p>
             </div>
             <div className="md:col-span-4 flex xl:flex-row md:flex-col flex-row xl:gap-4 md:gap-0 gap-4 xl:items-center md:items-start items-center">

@@ -7,7 +7,7 @@
 @layer base {
   @layer utilities {
     body {
-      @apply font-body font-light text-neutral-900 lining-nums;
+      @apply font-body font-light text-neutral-900 lining-nums bg-bege-200;
     }
   }
 }

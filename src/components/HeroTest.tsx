@@ -1,30 +1,49 @@
-import React from 'react'
-import imgHero1 from '../images/logos/hero1.svg'
-import imgHero2 from '../images/logos/hero2.svg'
-import imgHero3 from '../images/logos/hero3.svg'
+import { Slider, SliderProps, Slide } from './Slider'
 
-export function HeroTest() {
+export function Hero() {
+  const settings: SliderProps = {
+    spaceBetween: 50,
+    slidesPerView: 1,
+    navigation: true,
+    pagination: {
+      clickable: true
+    },
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false
+    }
+  }
+
   return (
     <>
       <div className="container mx-auto 2xl">
         <div className="flex flex-col xl:px-32 items-center text-center gap-6 py-20">
           <h1 className="font-display text-2xl text-display-lg">
-            Juliana <span className="italic text-primary-600">Designer </span>
-            <span className="italic text-primary-300">Interiores</span>
+            Juliana <span className=" text-marrom-400">Dal Col </span>
           </h1>
           <p className="col-span-8 md:text-body-xl text-body-lg font-light text-neutral-700 max-w-[800px]">
-            We turn your empty house to a lovely home, making the compact spaces
-            with sapce saving furnitures. Making the unique tastes of yours into
-            reality!{' '}
+            Transformamos sua casa vazia em um lar encantador, tornando os
+            espaços compactos com móveis que economizam espaço. Tornando os seus
+            gostos únicos em realidade!
           </p>
         </div>
-      </div>
-      <div>
-        <img
-          className="bg-cover bg-no-repeat bg-center w-full h-full"
-          src={imgHero3}
-          alt=""
-        />
+        <Slider settings={settings}>
+          <Slide>
+            <img src="/src/images/ImageSliders/1ACADEMIA.jpg" />
+          </Slide>
+          <Slide>
+            <img src="/src/images/ImageSliders/2AREAEXTERNA.jpg" />
+          </Slide>
+          <Slide>
+            <img src="/src/images/ImageSliders/3DORMITÓRIO.jpg" />
+          </Slide>
+          <Slide>
+            <img src="/src/images/ImageSliders/4ESPAÇOGOURMET.jpg" />
+          </Slide>
+          <Slide>
+            <img src="/src/images/ImageSliders/5LIVING.jpg" />
+          </Slide>
+        </Slider>
       </div>
     </>
   )

@@ -14,7 +14,8 @@
     "@material-tailwind/react": "^1.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "swiper": "^8.4.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

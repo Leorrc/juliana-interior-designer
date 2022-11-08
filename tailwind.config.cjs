@@ -13,65 +13,7 @@ module.exports = {
         '2xl': '10rem'
       }
     },
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      white: '#FFFFFF',
-      black: '#000000',
 
-      primary: {
-        600: '#996830',
-        300: '#C4A386',
-        100: '#E6D8CC'
-      },
-
-      neutral: {
-        900: '#2C2C2C',
-        700: '#444444',
-        500: '#7C7C7C',
-        300: '#D9D9D6',
-        100: '#E5E5E5'
-      },
-
-      musgo: {
-        500: '#878B70',
-        400: '#666955',
-        300: '#E1E8BC',
-        200: '#EEF5C6',
-        100: '#C9CFA7'
-      },
-
-      marrom: {
-        500: '#9D8255',
-        400: '#695638',
-        300: '#E8BF7D',
-        200: '#F5CA84',
-        100: '#CFAA70'
-      },
-
-      pele: {
-        500: '#CEBA9F',
-        400: '#695E51',
-        300: '#E8D1B3',
-        200: '#F5DCBC',
-        100: '#CFBA9F'
-      },
-
-      bege: {
-        500: '#EEEBE4',
-        400: '#696764',
-        300: '#E8E5DF',
-        200: '#F5F2EB',
-        100: '#CFCCC6'
-      },
-
-      gray: {
-        800: '#9D8255',
-        400: '#CEBA9F',
-        200: '#878B70',
-        100: '#EEEBE4'
-      }
-    },
     fontFamily: {
       display: ['Montserrat, sans-serif'],
       body: ['Outfit', 'sans-serif']
@@ -169,6 +111,65 @@ module.exports = {
         22: '88px',
         30: '120px',
         62: '248px'
+      }
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#FFFFFF',
+      black: '#000000',
+
+      primary: {
+        600: '#996830',
+        300: '#C4A386',
+        100: '#E6D8CC'
+      },
+
+      neutral: {
+        900: '#2C2C2C',
+        700: '#444444',
+        500: '#7C7C7C',
+        300: '#D9D9D6',
+        100: '#E5E5E5'
+      },
+
+      musgo: {
+        500: '#878B70',
+        400: '#666955',
+        300: '#E1E8BC',
+        200: '#EEF5C6',
+        100: '#C9CFA7'
+      },
+
+      marrom: {
+        500: '#9D8255',
+        400: '#695638',
+        300: '#E8BF7D',
+        200: '#F5CA84',
+        100: '#CFAA70'
+      },
+
+      pele: {
+        500: '#CEBA9F',
+        400: '#695E51',
+        300: '#E8D1B3',
+        200: '#F5DCBC',
+        100: '#CFBA9F'
+      },
+
+      bege: {
+        500: '#EEEBE4',
+        400: '#696764',
+        300: '#E8E5DF',
+        200: '#F5F2EB',
+        100: '#CFCCC6'
+      },
+
+      gray: {
+        800: '#9D8255',
+        400: '#CEBA9F',
+        200: '#878B70',
+        100: '#EEEBE4'
       }
     }
   },
