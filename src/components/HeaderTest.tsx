@@ -8,7 +8,7 @@ export function HeaderTest() {
     { name: 'Blog', href: '#' }
   ]
   return (
-    <header className="bg-bege-500">
+    <header className="bg-bege-500 fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto">
         <div className="flex py-5 justify-between items-center">
           <div className="flex flex-row gap-8 items-center">
@@ -22,7 +22,7 @@ export function HeaderTest() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-body-md font-medium text-neutral-700 hover:text-primary-600 px-4 transition duration-300 focus:outline-none focus:text-gray-800-500 focus:underline hover:underline "
+                  className="text-body-md font-medium text-neutral-700 hover:text-primary-600 px-4 transition duration-300 focus:outline-none focus:text-gray-800 hover:scale-125 py-1"
                 >
                   {item.name}
                 </a>
@@ -30,7 +30,7 @@ export function HeaderTest() {
             </div>
             <button
               type="button"
-              className="bg-transparent hover:bg-musgo-500 text-pele-400 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded hover:ease-out duration-300"
+              className="bg-transparent hover:bg-musgo-500 text-pele-400 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent  hover:ease-out duration-300  rounded-full tracking-wide text-xs hover:scale-110 "
             >
               Contato
             </button>

@@ -1,22 +1,22 @@
 [
   {
     "name": "Instagram",
-    "icon": "./images/social-icons/instagram.svg",
+    "icon": "../images/hero.jpeg",
     "href": "#"
   },
   {
     "name": "Facebook",
-    "icon": "./images/social-icons/facebook.svg",
+    "icon": "../images/social-icons/facebook.svg",
     "href": "#"
   },
   {
     "name": "YouTube",
-    "icon": "./images/social-icons/youtube.svg",
+    "icon": "../images/social-icons/youtube.svg",
     "href": "#"
   },
   {
     "name": "Twitter",
-    "icon": "./images/social-icons/twitter.svg",
+    "icon": "../images/social-icons/twitter.svg",
     "href": "#"
   }
 ]

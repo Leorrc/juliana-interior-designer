@@ -8,13 +8,15 @@ import { Footer } from './components/02-Footer/Footer'
 
 import './styles/global.css'
 import styles from './styles/styles'
+import { Ver } from './components/Ver'
 
 export function App() {
   return (
     <>
       <HeaderTest />
       <Hero />
-      <About />
+      <Ver />
+      {/* <About /> */}
       <Metrics />
       <Services />
       <Works />
