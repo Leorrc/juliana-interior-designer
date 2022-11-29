@@ -1,4 +1,4 @@
-import aa from '../../../public/works/aa.jpg'
+import aa from '/works/aa.jpg'
 
 const ImgLoop = `
   hidden 

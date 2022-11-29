@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { SideBar } from '../SideBar/SideBar'
 
-import logo from '../../../../public/works/logo7.png'
+import logo from '/works/logo7.png'
 
 type Props = {
   toggle1: () => void
@@ -11,7 +11,7 @@ type Props = {
 export function NavBar({ toggle1 }: Props) {
   return (
     <>
-      <header className="border-b border-base3 fixed top-0 left-0 z-[100] bg-base2  w-full max-h-24">
+      <header className="border-b border-base3 fixed top-0 left-0 z-[100] bg-base2 bg-opacity-80  w-full max-h-24">
         <nav className="flex items-center justify-between mx-auto py-0 px-8">
           <div className="p-1 text-base3">
             <img src={logo} />

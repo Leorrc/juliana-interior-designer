@@ -24,11 +24,7 @@ module.exports = {
         body: ['Outfit', 'sans-serif']
       },
       backgroundImage: {
-        'hero-pattern': "url('/works/home4.svg')",
-        mobile: "url('/works/mobile7.svg')",
-        home2: "url('/works/bg-home2.svg')",
-        'img-service': "url('/works/herosection.svg')",
-        'footer-texture': "url('/img/footer-texture.png')"
+        'hero-pattern': "url('/works/hero-home.jpg')"
       },
       zIndex: {
         100: '100'
