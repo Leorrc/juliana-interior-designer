@@ -1,4 +1,4 @@
-import { Slider, SliderProps, Slide } from './Slider'
+import { Slider, SliderProps, Slide } from './Slider1'
 import logoHero from '../../public/works/logo-hero.png'
 
 export function Hero() {

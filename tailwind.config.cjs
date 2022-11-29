@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 55s linear infinite'
+        'spin-slow': 'spin 55s linear infinite',
+        'bouce-2': 'bounce 1s infinite'
       },
       container: {
         center: true,
@@ -23,8 +24,10 @@ module.exports = {
         body: ['Outfit', 'sans-serif']
       },
       backgroundImage: {
-        'hero-pattern': "url('/public/works/bg-home.svg')",
-        'img-service': "url('/public/works/herosection.svg')",
+        'hero-pattern': "url('/works/home4.svg')",
+        mobile: "url('/works/mobile7.svg')",
+        home2: "url('/works/bg-home2.svg')",
+        'img-service': "url('/works/herosection.svg')",
         'footer-texture': "url('/img/footer-texture.png')"
       },
       zIndex: {
@@ -49,6 +52,9 @@ module.exports = {
         base3: '#525254',
 
         card: '#4E4E4E',
+
+        cor1: '#7F523F',
+        cor2: '#A06D4E',
 
         brown: {
           600: '#C0C0B4',

@@ -23,28 +23,6 @@ img {
   height: auto;
 }
 
-:root {
-  --header-height: 4.5rem;
-
-  /* colors */
-  --hue: 159;
-  /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
-  --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0 0% 46%);
-  --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%);
-
-  /* fonts */
-  --title-font-size: 1.875rem;
-  --subtitle-font-size: 1rem;
-
-  --title-font: 'Poppins', sans-serif;
-  --body-font: 'Montserrat', sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -54,6 +32,106 @@ body {
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --header-height: 4.5rem;
+
+  /* colors */
+  --hue: 85;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+  --verde: #8c8b75;
+
+  /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
+}
+
+.title {
+  font: 700 var(--title-font-size) var(--title-font);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+.sectionS {
+  padding: calc(5rem + var(--header-height)) 0;
+}
+
+.sectionL {
+  padding: 30rem 0;
+}
+
+.containerL {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.m0auto {
+  margin: 0 auto;
+}
+
+.fundoImg {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: var(--verde);
+  position: absolute;
+  top: -16.8%;
+  right: 16.8%;
+  z-index: 0;
+  border-radius: 0.5rem;
+  opacity: 0.9;
+}
+
+.toggle {
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.i::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  opacity: 20%;
+  background: white;
+  /*   background: #3B82F6; */
+  /* Centering */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.i:hover:before {
+  animation: anim-in 0.7s forwards ease-out;
+}
+
+@keyframes anim-in {
+  100% {
+    opacity: 0%;
+    border-radius: 0;
+    width: 600px;
+    height: 600px;
+  }
+  0% {
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    opacity: 20%;
+  }
 }
 
 /* @layer base {
