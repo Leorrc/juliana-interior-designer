@@ -44,6 +44,7 @@ module.exports = {
 
         base0: '#FBF7F4',
         base1: '#8C8B75',
+        verde: '#8C8B75',
         base2: '#D2D1CC',
         base3: '#525254',
 

@@ -1,6 +1,6 @@
 import { FaPenFancy, FaPencilRuler, FaFeatherAlt } from 'react-icons/fa'
 
-export function NewServices() {
+export function Services() {
   return (
     <div className="py-36 ">
       <div className="grid gap-8 mx-6 lg:max-w-4xl lg:mx-auto">
