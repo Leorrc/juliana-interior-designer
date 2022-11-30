@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
@@ -55,6 +53,7 @@ body {
 
   --title-font: 'Poppins', sans-serif;
   --body-font: 'Montserrat', sans-serif;
+  --new-font: 'NewFont', sans-serif;
 }
 
 .title {
