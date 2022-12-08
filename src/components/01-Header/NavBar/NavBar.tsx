@@ -1,5 +1,7 @@
+import { Button } from '@material-tailwind/react'
 import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
+import { Button1 } from '../../commons/Button/Button1'
 import { SideBar } from '../SideBar/SideBar'
 
 import logo from '/Logos/logoHeader.png'
@@ -16,7 +18,7 @@ export function NavBar({ toggle1 }: Props) {
           <div>
             <img src={logo} />
           </div>
-          <ul className="hidden md:flex gap-8  uppercase text-twice font-medium">
+          <ul className="hidden md:flex gap-8  uppercase text-twice font-medium items-center">
             <li>
               <a href="#" className="hover:text-baseBege relative group">
                 Home
@@ -35,13 +37,9 @@ export function NavBar({ toggle1 }: Props) {
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:text-baseBege relative group">
-                Contato
-                <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
-              </a>
-            </li>
+            <li></li>
           </ul>
+          <Button1>Contato</Button1>
           <div className="absolute right-6 md:hidden scale-150 ">
             <HiMenu onClick={toggle1} className=" cursor-pointer text-twice " />
           </div>
