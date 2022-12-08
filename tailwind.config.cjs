@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx,html}',
+    './node_modules/tw-elements/dist/js/**/*.js'
+  ],
   theme: {
     extend: {
       animation: {
@@ -11,7 +14,7 @@ module.exports = {
         center: true,
         padding: {
           DEFAULT: '1.25rem',
-          sm: '2rem',
+          sm: '1.5rem',
           md: '2.5rem',
           lg: '2rem',
           xl: '2rem',
@@ -24,7 +27,10 @@ module.exports = {
         body: ['Outfit', 'sans-serif']
       },
       backgroundImage: {
-        'hero-pattern': "url('/works/hero-home.jpg')"
+        'hero-pattern': "url('/works/hero-home.jpg')",
+        'service-pattern': "url('/Helps/bg-services.svg')",
+        'service-pattern2': "url('/Helps/wave4.svg')",
+        'faq-pattern': "url('/Helps/fundo20.svg')"
       },
       zIndex: {
         100: '100'
@@ -42,18 +48,13 @@ module.exports = {
         black: '#000000',
         twice: '#F3F3F3',
 
-        base0: '#FBF7F4',
-        base1: '#8C8B75',
-        verde: '#8C8B75',
-        base2: '#D2D1CC',
-        base3: '#525254',
+        baseVerde: '#8C8B75',
+        baseBege: '#D2D1CC',
+        baseCinza: '#525154',
 
         card: '#4E4E4E',
 
-        cor1: '#7F523F',
-        cor2: '#A06D4E',
-
-        brown: {
+        verde: {
           600: '#C0C0B4',
           500: '#B7B5A8',
           400: '#AAAB9B',
@@ -62,7 +63,7 @@ module.exports = {
           100: '#8C8B75'
         },
 
-        neutral: {
+        bege: {
           600: '#E6E6E4',
           500: '#E2E2E0',
           400: '#DEDFDA',
@@ -71,13 +72,13 @@ module.exports = {
           100: '#D2D1CC'
         },
 
-        gray: {
+        cinza: {
           600: '#A1A1A3',
           500: '#919193',
           400: '#818183',
           300: '#717173',
           200: '#626264',
-          100: '#525254'
+          100: '#525154'
         }
       }
     }
