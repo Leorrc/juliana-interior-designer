@@ -16,13 +16,11 @@ export function About() {
             <img className="rounded-lg relative " src={aa} alt="" />
           </div>
           <div className=" lg:relative md:max-w-md md:top-0">
-            <div className="bg-baseVerde bg-opacity-10 rounded-lg p-4 ">
-              <p className="text-justify">
-                Me chamo{' '}
-                <strong className="text-base3">Juliana Dal Col Viana</strong>,
-                sou Designer
-                <br /> de Interiores e me formei pela Universidade do Vale do
-                Itajaí do campus de Balneário Camboriú.
+            <div className="bg-baseVerde bg-opacity-10 rounded-lg p-4 text-base text-justify ">
+              <p>
+                Me chamo <strong>Juliana Dal Col Viana</strong>, sou Designer de
+                Interiores e me formei pela Universidade do Vale do Itajaí do
+                campus de Balneário Camboriú.
               </p>
               <br />
               <p>
@@ -37,7 +35,7 @@ export function About() {
                 realização de um grande projeto.
               </p>
             </div>
-            <div className="overflow-hidden animate-spin-slow w-52 h-52 flex mx-auto mt-8 lg:absolute top-[-15rem] right-[-20rem]">
+            <div className="overflow-hidden animate-spin-slow w-52 h-52 flex mx-auto mt-8 lg:absolute top-[-13rem] right-[-20rem]">
               <img src={logoAbout} alt="" />
             </div>
           </div>
