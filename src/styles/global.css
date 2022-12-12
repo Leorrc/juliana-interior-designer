@@ -186,12 +186,12 @@ details[open] {
   color: #525154;
 }
 .hrCard {
-  width: 20%;
+  width: 40%;
   display: block;
   margin: 0 auto;
-  height: 1px;
-  background: #000;
+  border-top: 1px solid #525154;
 }
+
 p.text-base {
   padding-top: 15px;
   text-align: justify;
@@ -199,7 +199,7 @@ p.text-base {
   color: #525154;
 }
 .fa {
-  font-size: 36px;
+  font-size: 39px;
   text-align: center;
   margin: 0 auto;
   display: block;
@@ -215,13 +215,13 @@ p.text-base {
   z-index: 100;
   position: fixed;
 
-  top: 77px;
-  bottom: 0;
-  width: 80%;
+  top: 150px;
+  bottom: 0px;
+  width: 90%;
 
-  height: 60%;
+  height: 50%;
   margin: 5% auto;
-  padding: 10px;
+  padding: 0.5rem;
 
   background-color: #626264;
   border-radius: 0.25rem;

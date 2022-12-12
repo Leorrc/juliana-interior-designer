@@ -19,7 +19,7 @@ interface CardProps {
 export function Projects3() {
   return (
     <>
-      <section className="sectionS bg-bege-100">
+      <section className="sectionS bg-bege-100 overflow-hidden">
         <header className="mx-6 mb-8">
           <Eyebrow>Meus Projetos</Eyebrow>
         </header>

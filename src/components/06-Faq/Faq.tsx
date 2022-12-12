@@ -9,7 +9,7 @@ export function Faq() {
 
   return (
     <div>
-      <section className="sectionS overflow-hidden bg-bege-600   md:py-40">
+      <section className="sectionS overflow-hidden bg-bege-600 md:py-40">
         <header className="mx-6 mb-12">
           <Eyebrow>PERGUNTAS FREQUENTES</Eyebrow>
         </header>

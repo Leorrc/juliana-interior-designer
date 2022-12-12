@@ -12,7 +12,7 @@ export function About() {
             <span className="fundoImg"></span>
             <img className="rounded-lg relative " src={aa} alt="" />
           </div>
-          <div className=" mx-16 lg:mt-12 lg:relative">
+          <div className="lg:mt-12 lg:relative">
             <Eyebrow>Sobre mim</Eyebrow>
             <div className="bg-baseVerde bg-opacity-10 rounded-lg p-4">
               <p className="text-justify">

@@ -37,9 +37,20 @@ export function NavBar({ toggle1 }: Props) {
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
               </a>
             </li>
-            <li></li>
+            <li>
+              <a href="#" className="hover:text-baseBege relative group">
+                Perguntas frequentes
+                <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-baseBege relative group">
+                Contato
+                <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
+              </a>
+            </li>
           </ul>
-          <Button1>Contato</Button1>
+
           <div className="absolute right-6 md:hidden scale-150 ">
             <HiMenu onClick={toggle1} className=" cursor-pointer text-twice " />
           </div>

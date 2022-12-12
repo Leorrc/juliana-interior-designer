@@ -11,6 +11,7 @@ import { Footer } from './components/08-Footer/Footer'
 import Box from './components/05-Projects/Box'
 
 import './styles/global.css'
+import { Contact2 } from './components/07-Contact/Contact2'
 
 export function App() {
   return (
@@ -22,7 +23,7 @@ export function App() {
       <Services />
       <Projects3 />
       <Faq />
-      <Contact />
+      <Contact2 />
       <Footer />
     </>
   )

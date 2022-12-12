@@ -9,7 +9,7 @@ export function Services() {
           <header>
             <Eyebrow>Serviços</Eyebrow>
           </header>
-          <div className="container mx-auto flex flex-wrap my-8 justify-center">
+          <div className="mx-auto flex flex-wrap my-8 justify-center">
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-16">
               <div className="max-w-sm rounded overflow-hidden shadow-xl cursor-pointer  card">
                 <div className="px-6 py-4 mx-auto">
