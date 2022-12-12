@@ -215,9 +215,9 @@ p.text-base {
   z-index: 100;
   position: fixed;
 
-  top: 150px;
+  top: 100px;
   bottom: 0px;
-  width: 90%;
+  width: 93%;
 
   height: 50%;
   margin: 5% auto;
@@ -225,6 +225,14 @@ p.text-base {
 
   background-color: #626264;
   border-radius: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .overlay {
+    top: 100px;
+    width: 80%;
+    height: 60%;
+  }
 }
 
 .zoom:hover img {
