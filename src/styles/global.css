@@ -116,8 +116,8 @@ details[open] {
   width: 100%;
   background: var(--verde);
   position: absolute;
-  top: -16.8%;
-  right: 16.8%;
+  top: -9.8%;
+  right: -9.8%;
   z-index: 0;
   border-radius: 0.5rem;
   opacity: 0.9;

@@ -23,7 +23,7 @@ export function Home({ imgUrl }: ImgsHomeProps) {
   }
 
   return (
-    <div>
+    <>
       <Slider settings={settings}>
         {imgsHome.map(imgs => (
           <Slide>
@@ -31,6 +31,7 @@ export function Home({ imgUrl }: ImgsHomeProps) {
           </Slide>
         ))}
       </Slider>
-    </div>
+      <div className="divider-2"></div>
+    </>
   )
 }
