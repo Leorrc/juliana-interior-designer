@@ -1,6 +1,6 @@
 import React from 'react'
 import { Eyebrow } from '../../../components/commons/Eyebrow'
-import gif from '../../../../public/images/g.gif'
+import gif from '/images/g.gif'
 
 export function ProjectsTroll() {
   return (
