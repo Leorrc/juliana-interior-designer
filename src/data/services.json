@@ -1,0 +1,31 @@
+
+[
+  {
+    "icon": "/assets/svg/2.svg",
+    "description": "Levantamento de custos para estimar o valor da obra"
+  },
+  {
+    "icon": "/assets/svg/1.svg",
+    "description": "Assessoria para compra de materiais, móveis etc."
+  },
+  {
+    "icon": "/assets/svg/7.svg",
+    "description": "Atendimento personalizado sem sair de casa"
+  },
+  {
+    "icon": "/assets/svg/6.svg",
+    "description": "Produção de ambientes"
+  },
+  {
+    "icon": "/assets/svg/5.svg",
+    "description": "Acompanhamento de obras "
+  },
+  {
+    "icon": "/assets/svg/4.svg",
+    "description": "Indicação de parceiros para execução de obras "
+  },
+  {
+    "icon": "/assets/svg/3.svg",
+    "description": "Projetos residenciais, comerciais, hoteleiros e corporativos "
+  }
+]

@@ -1,30 +1,30 @@
 import ScrollToTopButton from './components/commons/ScrollTopButton'
-import { Header } from './components/01-Header/Header'
-import { Home } from './components/02-Home/Home'
-import { About } from './components/03-About/About'
-import { Services } from './components/04-Services/Services'
-import { Projects3 } from './components/05-Projects/Projects3'
-import { Faq } from './components/06-Faq/Faq'
-import { Contact } from './components/07-Contact/Contact'
-import { Footer } from './components/08-Footer/Footer'
-
-import Box from './components/05-Projects/Box'
-
 import './styles/global.css'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+import { Header } from './components/01-Header/Header'
 import { Contact2 } from './components/07-Contact/Contact2'
+import { Footer } from './components/08-Footer/Footer'
+import { Main } from './pages/01-Main'
+import { Projects } from './pages/01-Main/04-Projects/Projects'
+import { Contact3 } from './components/07-Contact/Contact3'
 
 export function App() {
   return (
     <>
-      <ScrollToTopButton />
-      <Header />
-      <Home />
-      <About />
-      <Services />
-      <Projects3 />
-      <Faq />
-      <Contact2 />
-      <Footer />
+      <Router>
+        <ScrollToTopButton />
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/Projects" element={<Projects />} />
+        </Routes>
+
+        <Contact3 />
+        <Footer />
+      </Router>
     </>
   )
 }

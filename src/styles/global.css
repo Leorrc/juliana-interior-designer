@@ -192,6 +192,19 @@ details[open] {
   border-top: 1px solid #525154;
 }
 
+.hrFooter {
+  width: 20%;
+  display: block;
+  margin-left: 100px;
+  border-top: 1px solid #525154;
+}
+
+.v1 {
+  border-left: 1px solid #525154;
+  height: 300px;
+  margin-top: 10rem;
+}
+
 p.text-base {
   padding-top: 15px;
   text-align: justify;

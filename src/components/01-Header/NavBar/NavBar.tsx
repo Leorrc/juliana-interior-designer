@@ -1,10 +1,8 @@
-import { Button } from '@material-tailwind/react'
-import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
-import { Button1 } from '../../commons/Button/Button1'
-import { SideBar } from '../SideBar/SideBar'
+import logo from '/images/Logos/logoHeader.png'
 
-import logo from '/Logos/logoHeader.png'
+import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkS } from 'react-scroll'
 
 type Props = {
   toggle1: () => void
@@ -20,34 +18,43 @@ export function NavBar({ toggle1 }: Props) {
           </div>
           <ul className="hidden md:flex gap-8  uppercase text-twice font-medium items-center">
             <li>
-              <a href="#" className="hover:text-baseBege relative group">
+              <LinkR to="/" className="hover:text-baseBege relative group">
                 Home
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all " />
-              </a>
+              </LinkR>
             </li>
             <li>
-              <a href="#" className="hover:text-baseBege relative group">
+              <LinkR
+                to="/Projects"
+                className="hover:text-baseBege relative group"
+              >
                 Projetos
-                <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
-              </a>
+                <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all " />
+              </LinkR>
             </li>
             <li>
-              <a href="#" className="hover:text-baseBege relative group">
+              <LinkS
+                to="services"
+                className="hover:text-baseBege relative group"
+              >
                 Serviços
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
-              </a>
+              </LinkS>
             </li>
             <li>
-              <a href="#" className="hover:text-baseBege relative group">
+              <LinkS to="faq" className="hover:text-baseBege relative group">
                 Perguntas frequentes
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
-              </a>
+              </LinkS>
             </li>
             <li>
-              <a href="#" className="hover:text-baseBege relative group">
+              <LinkS
+                to="contact"
+                className="hover:text-baseBege relative group"
+              >
                 Contato
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all" />
-              </a>
+              </LinkS>
             </li>
           </ul>
 
