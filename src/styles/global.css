@@ -61,6 +61,26 @@ body {
   font: var(--font-about);
 }
 
+.teste2 {
+  animation: wordBack 15s infinite cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.word_back {
+  animation: wordBack 15s infinite cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@keyframes wordBack {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 details {
   color: black;
   outline: none;
