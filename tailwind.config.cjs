@@ -24,7 +24,8 @@ module.exports = {
       fontFamily: {
         display: ['Montserrat, sans-serif'],
         display2: ['Work Sans, sans-serif'],
-        body: ['Outfit', 'sans-serif']
+        body: ['Outfit', 'sans-serif'],
+        fontAbout: ['FontAbout']
       },
       backgroundImage: {
         'hero-pattern': "url('/works/hero-home.jpg')",

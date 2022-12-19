@@ -24,13 +24,13 @@ export function NavBar({ toggle1 }: Props) {
               </LinkR>
             </li>
             <li>
-              <LinkR
-                to="/Projects"
+              <LinkS
+                to="projects2"
                 className="hover:text-baseBege relative group"
               >
                 Projetos
                 <div className="absolute w-full h-0.5 bg-twice scale-x-0 group-hover:scale-x-100 transition-all " />
-              </LinkR>
+              </LinkS>
             </li>
             <li>
               <LinkS

@@ -5,7 +5,7 @@ import gif from '/images/g.gif'
 export function ProjectsTroll() {
   return (
     <>
-      <section className="py-20 bg-baseBege">
+      <section className="py-40 bg-baseBege" id="projects2">
         <div className="mx-6 pb-16">
           <Eyebrow>MEUS PROJETOS</Eyebrow>
         </div>

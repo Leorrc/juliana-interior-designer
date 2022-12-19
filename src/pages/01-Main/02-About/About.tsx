@@ -1,33 +1,43 @@
-import aa from '/images/works/ju.png'
-import logoAbout from '/images/Logos/logoAbout.png'
+import aa from '/images/works/aboutPhoto.webp'
+import logoAbout from '/images/Logos/logoSpin.png'
 
 import { Eyebrow } from '../../../components/commons/Eyebrow'
 
+// font-thin absolute left-24 top-[1370px]
 export function About() {
   return (
     <>
-      <section className="sectionS overflow-hidden bg-bege-100 md:py-40 lg:relative">
-        <div className="mx-6 pb-16">
+      <section className="py-20 overflow-hidden bg-bege-100 md:py-40">
+        <div className="mx-6">
           <Eyebrow>Sobre mim</Eyebrow>
         </div>
-        <div className="containerL grid gap-8 md:grid-flow-col md:max-w-5xl md:mx-auto ">
-          <div className="relative max-w-xs mx-auto">
-            <span className="fundoImg"></span>
-            <img className="rounded-lg relative " src={aa} alt="" />
+        <div className="containerL pt-8 grid gap-8 md:grid-flow-col md:mx-auto justify-center">
+          <div className="animate-spin-slow w-52 h-52 flex mx-auto xl:mr-80 xl:mt-16 xl:w-62 xl:h-62">
+            <img src={logoAbout} alt="" />
           </div>
-          <div className=" lg:relative md:max-w-md md:top-0">
-            <div className="p-4 text-base text-justify ">
+          <div className="max-w-md">
+            <div className="grid relative max-w-xs mx-auto">
+              <span className="text-8xl text-center text-baseVerde/30 font-fontAbout absolute z-0 -top-[5%] right-[1%]">
+                Juliana Dal Col
+              </span>
+
+              <h1 className="text-[40px] text-center text-baseCinza relative">
+                Juliana Dal Col
+              </h1>
+            </div>
+
+            <div className="mt-8 text-base text-justify ">
               <p>
                 Sou Designer de Interiores formada pela Universidade do Vale do
                 Itajaí do campus de Balneário Camboriú.
               </p>
-              <br />
+
               <p>
                 Atuo na área de decoração e projeto de interiores, assessoro
                 cliente com soluções únicas e funcionais, expondo seus desejos,
                 necessidades e estilo de vida.
               </p>
-              <br />
+
               <p>
                 Busco executar os projetos com excelência, focando nos mínimos
                 detalhes e no controle dos processos para que o cliente tenha
@@ -35,9 +45,10 @@ export function About() {
                 finalização, afinal é a realização de um sonho.
               </p>
             </div>
-            <div className="overflow-hidden animate-spin-slow w-52 h-52 flex mx-auto mt-8 lg:absolute top-[-13rem] right-[-20rem]">
-              <img src={logoAbout} alt="" />
-            </div>
+          </div>
+          <div className="relative max-w-xs mx-auto">
+            <span className="fundoImg"></span>
+            <img className="rounded-lg relative " src={aa} alt="" />
           </div>
         </div>
       </section>
