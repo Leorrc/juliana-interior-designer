@@ -31,13 +31,13 @@ export function About() {
                 Sou Designer de Interiores formada pela Universidade do Vale do
                 Itajaí do campus de Balneário Camboriú.
               </p>
-
+              <br />
               <p>
                 Atuo na área de decoração e projeto de interiores, assessoro
                 cliente com soluções únicas e funcionais, expondo seus desejos,
                 necessidades e estilo de vida.
               </p>
-
+              <br />
               <p>
                 Busco executar os projetos com excelência, focando nos mínimos
                 detalhes e no controle dos processos para que o cliente tenha

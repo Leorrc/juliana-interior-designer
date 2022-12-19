@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
 
+import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkS } from 'react-scroll'
+
 type Props = {
   isOpen: boolean
   toggle: () => void
@@ -21,40 +24,40 @@ export function SideBar({ isOpen, toggle }: Props) {
         </div>
         <ul className="grid gap-16 text-twice">
           <li className="text-center">
-            <a
+            <LinkR
               className="titleHeader hover:text-cinza-600 transition-colors relative group"
-              href="#"
+              to="/"
             >
               Home
               <div className="absolute w-[136px] h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-all " />
-            </a>
+            </LinkR>
           </li>
           <li className="text-center">
-            <a
+            <LinkS
               className="titleHeader hover:text-cinza-600 relative group"
-              href="#"
+              to="projects2"
             >
               Projetos
               <div className="absolute w-full h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-transform " />
-            </a>
+            </LinkS>
           </li>
           <li className="text-center">
-            <a
+            <LinkS
               className="titleHeader hover:text-cinza-600 relative group"
-              href="#"
+              to="services"
             >
               Serviços
               <div className="absolute w-full h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-transform " />
-            </a>
+            </LinkS>
           </li>
           <li className="text-center">
-            <a
+            <LinkS
               className="titleHeader hover:text-cinza-600 relative group"
-              href="#"
+              to="contact"
             >
               Contato
               <div className="absolute w-full h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-transform " />
-            </a>
+            </LinkS>
           </li>
         </ul>
       </div>
