@@ -1,7 +1,7 @@
 import React from 'react'
 import { Eyebrow } from '../../../components/commons/Eyebrow'
 import { CardProject } from './CardProject'
-import dataModal from '../../../data/Projects/ImgsModal/imgsModal.json'
+import dataModal from '../../../data/Projects/ImgsModal/capas.json'
 import { MdClose } from 'react-icons/md'
 
 import { Home2 } from '../../02-Projects/Modal/Home2'
@@ -16,7 +16,7 @@ export function Projects() {
           <Eyebrow>MEUS PROJETOS</Eyebrow>
         </div>
 
-        <div className="flex w-full px-10 flex-col items-center">
+        <div className="flex w-full px-4 flex-col items-center">
           <div className="grid gap-5 grid-cols-1 lg:grid-cols-3">
             {dataModal.map(data => (
               <CardProject

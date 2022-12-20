@@ -253,25 +253,33 @@ p.text-base {
   z-index: 100;
   position: fixed;
 
-  top: 100px;
-  bottom: 0px;
-  width: 100%;
-  max-width: 1800px;
+  top: 110px;
 
-  height: 50%;
-  max-height: 760px;
+  width: 90%;
+  max-width: 1366px;
+
+  height: 40%;
+  max-height: 1080px;
   margin: 1% auto;
   padding: 0.5rem;
 
   background-color: #626264;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    top: 100px;
+    width: 95%;
+    height: 75%;
+  }
 }
 
 @media (min-width: 1024px) {
   .overlay {
-    top: 100px;
-    width: 100%;
-    height: 100%;
+    top: 90px;
+    width: 95%;
+    height: 84%;
   }
 }
 
