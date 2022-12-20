@@ -11,11 +11,13 @@ export function About() {
         <div className="mx-6">
           <Eyebrow>Sobre mim</Eyebrow>
         </div>
-        <div className="containerL pt-8 grid gap-8  md:grid-flow-col md:mx-auto justify-center">
-          <div className="animate-spin-slow w-52 h-52 flex mx-auto xl:mr-80 xl:mt-16 xl:w-62 xl:h-62 lg:absolute lg:left-56">
+
+        <div className="containerL pt-8 grid gap-8  md:grid-flow-col xl:gap-0">
+          <div className="animate-spin-slow w-52 h-52 mx-auto xl:mt-16 xl:w-62 xl:h-62">
             <img src={logoAbout} alt="" />
           </div>
-          <div className="max-w-md">
+
+          <div className="max-w-md mx-auto">
             <div className="grid relative max-w-xs mx-auto">
               <span className="text-8xl text-center text-baseVerde/30 font-fontAbout absolute z-0 -top-[5%] right-[1%]">
                 Juliana Dal Col
@@ -46,7 +48,8 @@ export function About() {
               </p>
             </div>
           </div>
-          <div className="relative max-w-[350px] mx-auto mt-4 lg:absolute lg:flex lg:right-[15%]">
+
+          <div className="relative max-w-[350px] mx-auto  ">
             <span className="fundoImg"></span>
             <img className="rounded-lg relative " src={aa} alt="" />
           </div>
