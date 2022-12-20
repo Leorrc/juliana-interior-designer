@@ -24,7 +24,7 @@ export function Contact3() {
                   <div className="divide-y divide-gray-200">
                     <form
                       className="pt-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7 -mb-8"
-                      action="https://formsubmit.co/steamnova10@gmail.com"
+                      action="https://formsubmit.co/dalcoldesign@hotmail.com"
                       method="POST"
                     >
                       <label
@@ -113,10 +113,16 @@ export function Contact3() {
             </div>
 
             <div className="flex items-center gap-2">
-              <FaInstagram className="text-4xl text-card md:text-5xl lg:text-6xl hover:text-cinza-400 transition-colors cursor-pointer" />
-              <h2 className="text-lg md:text-3xl lg:text-3xl text-baseCinza cursor-pointer">
-                @dalcoldesign
-              </h2>
+              <a
+                href="https://www.instagram.com/dalcoldesign/"
+                target="_blank"
+                className="flex items-center gap-1"
+              >
+                <FaInstagram className="text-4xl text-card md:text-5xl lg:text-6xl hover:text-cinza-400 transition-colors cursor-pointer" />
+                <h2 className="text-lg md:text-3xl lg:text-3xl text-baseCinza cursor-pointer">
+                  @dalcoldesign
+                </h2>
+              </a>
             </div>
 
             <div className="flex items-center gap-2">

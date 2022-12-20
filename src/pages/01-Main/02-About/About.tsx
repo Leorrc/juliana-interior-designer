@@ -11,8 +11,8 @@ export function About() {
         <div className="mx-6">
           <Eyebrow>Sobre mim</Eyebrow>
         </div>
-        <div className="containerL pt-8 grid gap-8 md:grid-flow-col md:mx-auto justify-center">
-          <div className="animate-spin-slow w-52 h-52 flex mx-auto xl:mr-80 xl:mt-16 xl:w-62 xl:h-62">
+        <div className="containerL pt-8 grid gap-8  md:grid-flow-col md:mx-auto justify-center">
+          <div className="animate-spin-slow w-52 h-52 flex mx-auto xl:mr-80 xl:mt-16 xl:w-62 xl:h-62 lg:absolute lg:left-56">
             <img src={logoAbout} alt="" />
           </div>
           <div className="max-w-md">
@@ -21,7 +21,7 @@ export function About() {
                 Juliana Dal Col
               </span>
 
-              <h1 className="text-[40px] text-center text-baseCinza relative">
+              <h1 className="text-[40px] font-semibold text-center text-baseCinza relative">
                 Juliana Dal Col
               </h1>
             </div>
@@ -41,12 +41,12 @@ export function About() {
               <p>
                 Busco executar os projetos com excelência, focando nos mínimos
                 detalhes e no controle dos processos para que o cliente tenha
-                uma experiencia incrível, desde o inicio do projeto até a
+                uma experiência incrível, desde o inicio do projeto até a
                 finalização, afinal é a realização de um sonho.
               </p>
             </div>
           </div>
-          <div className="relative max-w-xs mx-auto">
+          <div className="relative max-w-[350px] mx-auto mt-4 lg:absolute lg:flex lg:right-[15%]">
             <span className="fundoImg"></span>
             <img className="rounded-lg relative " src={aa} alt="" />
           </div>

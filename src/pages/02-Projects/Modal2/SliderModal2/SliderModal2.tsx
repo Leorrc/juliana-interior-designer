@@ -6,14 +6,17 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
-import './SliderModal.css'
+import './SliderModal2.css'
 
-interface SliderModalProps {
+interface SliderModal2Props {
   settings: SwiperProps
   children: ReactNode
 }
 
-export default function SliderModal({ settings, children }: SliderModalProps) {
+export default function SliderModal2({
+  settings,
+  children
+}: SliderModal2Props) {
   return (
     <Swiper modules={[Navigation, Pagination, A11y, Autoplay]} {...settings}>
       {children}

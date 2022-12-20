@@ -1,9 +1,8 @@
-import { SlideModal, SliderModal, SliderModalProps } from './SliderModal'
-
 import meL from '../../../data/Projects/ImgsModal/MeL/meL.json'
+import { SliderModal2Props, SliderModal2, SlideModal2 } from './SliderModal2'
 
-export function Home2() {
-  const settings: SliderModalProps = {
+export function Modal2() {
+  const settings: SliderModal2Props = {
     spaceBetween: 30,
     slidesPerView: 1,
     navigation: true,
@@ -21,13 +20,13 @@ export function Home2() {
 
   return (
     <>
-      <SliderModal settings={settings}>
+      <SliderModal2 settings={settings}>
         {meL.map(imgs => (
-          <SlideModal>
+          <SlideModal2>
             <img className="h-auto" src={imgs.imgUrl} />
-          </SlideModal>
+          </SlideModal2>
         ))}
-      </SliderModal>
+      </SliderModal2>
     </>
   )
 }

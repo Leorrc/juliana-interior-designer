@@ -27,5 +27,10 @@
   {
     "icon": "/assets/svg/3.svg",
     "description": "Projetos residenciais, comerciais, hoteleiros e corporativos "
+  },
+  {
+    "icon": "/assets/svg/8.svg",
+    "description": "Assessoria para profissionais (projetos e renderizações)"
   }
+
 ]

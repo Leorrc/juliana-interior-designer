@@ -11,8 +11,8 @@ export function Main() {
       <Home />
       <About />
       <Services />
-      {/* <Projects /> */}
-      <ProjectsTroll />
+      <Projects />
+      {/* <ProjectsTroll /> */}
       <Faq />
     </>
   )
