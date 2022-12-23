@@ -26,9 +26,17 @@ export function Home({ imgUrl }: ImgsHomeProps) {
     <>
       <div className="relative" id="hometop" />
 
-      <span className="text-[52px] italic text-baseVerde font-extrabold absolute word_back z-[90] right-12 top-[700px] md:text-9xl md:top-[750px] xl:text-twice/50 lg:mix-blend-overlay">
+      <i
+        className="
+      text-[52px]  text-baseVerde font-extrabold 
+      absolute word_back z-[90] right-12 top-[700px] 
+      md:text-9xl md:top-[750px] 
+      lg:mix-blend-overlay
+    xl:text-twice/50 "
+      >
         Inspire-se
-      </span>
+      </i>
+
       <Slider settings={settings}>
         {imgsHome.map(imgs => (
           <Slide>
