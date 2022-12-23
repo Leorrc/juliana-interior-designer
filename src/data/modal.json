@@ -1,0 +1,70 @@
+[
+  {
+    "imgUrl": "/images/Projects/Capas/1.webp",
+    "modal": [
+         "/images/Projects/Modal/01-MeL/1.webp",
+         "/images/Projects/Modal/01-MeL/2.webp",
+         "/images/Projects/Modal/01-MeL/3.webp",
+         "/images/Projects/Modal/01-MeL/4.webp"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/2.webp",
+    "modal": [
+         "/images/Projects/Modal/02-Academia/1.webp",
+         "/images/Projects/Modal/02-Academia/2.webp",
+         "/images/Projects/Modal/02-Academia/3.webp"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/3.webp",
+    "modal": [
+         "/images/Projects/Modal/03-Living/1.webp",
+         "/images/Projects/Modal/03-Living/2.webp",
+         "/images/Projects/Modal/03-Living/3.webp",
+         "/images/Projects/Modal/03-Living/4.webp"
+       
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/4.webp",
+    "modal": [
+         "/images/Projects/Modal/04-Sr/1.jpg",
+         "/images/Projects/Modal/04-Sr/2.jpg",
+         "/images/Projects/Modal/04-Sr/3.jpg",
+         "/images/Projects/Modal/04-Sr/4.jpg",
+         "/images/Projects/Modal/04-Sr/5.jpg",
+         "/images/Projects/Modal/04-Sr/6.jpg",
+         "/images/Projects/Modal/04-Sr/7.jpg",
+         "/images/Projects/Modal/04-Sr/8.jpg",
+         "/images/Projects/Modal/04-Sr/9.jpg",
+         "/images/Projects/Modal/04-Sr/10.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/5.webp",
+    "modal": [
+         "/images/Projects/Modal/05-VA/1.jpg",
+         "/images/Projects/Modal/05-VA/2.jpg",
+         "/images/Projects/Modal/05-VA/3.jpg",
+         "/images/Projects/Modal/05-VA/4.jpg",
+         "/images/Projects/Modal/05-VA/5.jpg",
+         "/images/Projects/Modal/05-VA/6.jpg",
+         "/images/Projects/Modal/05-VA/7.jpg",
+         "/images/Projects/Modal/05-VA/8.jpg",
+         "/images/Projects/Modal/05-VA/9.jpg",
+         "/images/Projects/Modal/05-VA/10.jpg",
+         "/images/Projects/Modal/05-VA/11.jpg"   
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/6.webp",
+    "modal": [
+         "/images/Projects/Modal/06-JJ/1.webp",
+         "/images/Projects/Modal/06-JJ/2.webp",
+         "/images/Projects/Modal/06-JJ/3.webp"
+    ]
+  }
+]
+
+

@@ -249,8 +249,8 @@ p.text-base {
   }
 }
 
-.overlay {
-  z-index: 100;
+.overlay-content {
+  z-index: 2;
   position: fixed;
 
   top: 110px;
@@ -268,7 +268,7 @@ p.text-base {
 }
 
 @media (min-width: 768px) {
-  .overlay {
+  .overlay-content {
     top: 100px;
     width: 95%;
     height: 75%;
@@ -276,7 +276,7 @@ p.text-base {
 }
 
 @media (min-width: 1024px) {
-  .overlay {
+  .overlay-content {
     top: 90px;
     width: 95%;
     height: 84%;

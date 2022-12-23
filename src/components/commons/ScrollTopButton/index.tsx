@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { FaAngleUp } from 'react-icons/fa'
 import { Container } from './styles'
 
+import { BsArrowUpShort } from 'react-icons/bs'
+import { RiArrowUpSLine } from 'react-icons/ri'
+import { VscArrowSmallUp } from 'react-icons/vsc'
+
 export default function ScrollToTopButton() {
   const [showTopBtn, setShowTopBtn] = useState(false)
 
@@ -25,7 +29,10 @@ export default function ScrollToTopButton() {
   return (
     <Container className="top-to-btm">
       {showTopBtn && (
-        <FaAngleUp className="icon-position icon-style" onClick={goToTop} />
+        <VscArrowSmallUp
+          className="icon-position icon-style"
+          onClick={goToTop}
+        />
       )}
     </Container>
   )

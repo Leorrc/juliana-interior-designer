@@ -12,9 +12,13 @@ export function Footer() {
           <div className="mx-auto">
             <p className="text-bege-100">
               © 2022 Site desenvolvido por{' '}
-              <span className="font-semibold cursor-pointer">
+              <a
+                className="font-semibold"
+                href="https://my-page-silk.vercel.app/"
+                target="_blank"
+              >
                 Leonardo Carvalho DEV
-              </span>
+              </a>
             </p>
           </div>
         </div>
