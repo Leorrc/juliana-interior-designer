@@ -24,9 +24,9 @@ export function Home({ imgUrl }: ImgsHomeProps) {
 
   return (
     <>
-      <div id="hometop" />
+      <div className="relative" id="hometop" />
 
-      <span className="text-[50px] italic text-baseVerde font-extrabold absolute word_back z-[90] right-12 top-[800px] md:text-9xl md:top-[750px] xl:text-twice/50 lg:mix-blend-overlay">
+      <span className="text-[50px] italic text-baseVerde font-extrabold absolute word_back z-[90] right-12 top-[580px] md:text-9xl md:top-[750px] xl:text-twice/50 lg:mix-blend-overlay">
         Inspire-se
       </span>
       <Slider settings={settings}>
