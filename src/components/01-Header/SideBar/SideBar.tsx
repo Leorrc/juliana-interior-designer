@@ -24,18 +24,20 @@ export function SideBar({ isOpen, toggle }: Props) {
         </div>
         <ul className="grid gap-16 text-twice">
           <li className="text-center">
-            <LinkR
+            <LinkS
               className="titleHeader hover:text-cinza-600 transition-colors relative group"
-              to="/"
+              to="hometop"
+              onClick={toggle}
             >
               Home
               <div className="absolute w-[136px] h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-all " />
-            </LinkR>
+            </LinkS>
           </li>
           <li className="text-center">
             <LinkS
               className="titleHeader hover:text-cinza-600 relative group"
-              to="projects2"
+              to="projects"
+              onClick={toggle}
             >
               Projetos
               <div className="absolute w-full h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-transform " />
@@ -45,6 +47,7 @@ export function SideBar({ isOpen, toggle }: Props) {
             <LinkS
               className="titleHeader hover:text-cinza-600 relative group"
               to="services"
+              onClick={toggle}
             >
               Serviços
               <div className="absolute w-full h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-transform " />
@@ -54,6 +57,7 @@ export function SideBar({ isOpen, toggle }: Props) {
             <LinkS
               className="titleHeader hover:text-cinza-600 relative group"
               to="contact"
+              onClick={toggle}
             >
               Contato
               <div className="absolute w-full h-0.5 bg-cinza-600 scale-x-0 group-hover:scale-x-100 transition-transform " />
