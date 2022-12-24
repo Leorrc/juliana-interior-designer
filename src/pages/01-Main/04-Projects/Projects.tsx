@@ -15,7 +15,11 @@ export function Projects() {
         <div className="flex w-full px-1 flex-col items-center">
           <div className="grid gap-5 grid-cols-1 lg:grid-cols-3">
             {modal.map(data => (
-              <CardProject imgUrl={data.imgUrl} modal={data.modal} />
+              <CardProject
+                imgUrl={data.imgUrl}
+                title={data.title}
+                modal={data.modal}
+              />
             ))}
           </div>
         </div>

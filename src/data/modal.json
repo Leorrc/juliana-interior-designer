@@ -1,33 +1,37 @@
 [
   {
     "imgUrl": "/images/Projects/Capas/1.webp",
+    "title": "M&L",
     "modal": [
-         "/images/Projects/Modal/01-MeL/1.webp",
-         "/images/Projects/Modal/01-MeL/2.webp",
-         "/images/Projects/Modal/01-MeL/3.webp",
-         "/images/Projects/Modal/01-MeL/4.webp"
+         "/images/Projects/Modal/01-MeL/1.jpg",
+         "/images/Projects/Modal/01-MeL/2.jpg",
+         "/images/Projects/Modal/01-MeL/3.jpg",
+         "/images/Projects/Modal/01-MeL/4.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/2.webp",
+    "title": "Academia",
     "modal": [
-         "/images/Projects/Modal/02-Academia/1.webp",
-         "/images/Projects/Modal/02-Academia/2.webp",
-         "/images/Projects/Modal/02-Academia/3.webp"
+         "/images/Projects/Modal/02-Academia/1.jpg",
+         "/images/Projects/Modal/02-Academia/2.jpg",
+         "/images/Projects/Modal/02-Academia/3.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/3.webp",
+    "title": "M&L Living",
     "modal": [
-         "/images/Projects/Modal/03-Living/1.webp",
-         "/images/Projects/Modal/03-Living/2.webp",
-         "/images/Projects/Modal/03-Living/3.webp",
-         "/images/Projects/Modal/03-Living/4.webp"
+         "/images/Projects/Modal/03-Living/1.jpg",
+         "/images/Projects/Modal/03-Living/2.jpg",
+         "/images/Projects/Modal/03-Living/3.jpg",
+         "/images/Projects/Modal/03-Living/4.jpg"
        
     ]
-  },
+  }, 
   {
     "imgUrl": "/images/Projects/Capas/4.webp",
+    "title": "ESPAÇO GOURMET S.R",
     "modal": [
          "/images/Projects/Modal/04-Sr/1.jpg",
          "/images/Projects/Modal/04-Sr/2.jpg",
@@ -43,6 +47,7 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/5.webp",
+    "title": "V&A",
     "modal": [
          "/images/Projects/Modal/05-VA/1.jpg",
          "/images/Projects/Modal/05-VA/2.jpg",
@@ -59,10 +64,11 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/6.webp",
+    "title": "J J",
     "modal": [
-         "/images/Projects/Modal/06-JJ/1.webp",
-         "/images/Projects/Modal/06-JJ/2.webp",
-         "/images/Projects/Modal/06-JJ/3.webp"
+         "/images/Projects/Modal/06-JJ/1.jpg",
+         "/images/Projects/Modal/06-JJ/2.jpg",
+         "/images/Projects/Modal/06-JJ/3.jpg"
     ]
   }
 ]

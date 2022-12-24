@@ -217,6 +217,14 @@ details[open] {
   border-top: 1px solid #525154;
 }
 
+.hrPro {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  border-top: 1px solid #525154;
+}
+
 .hrFooter {
   width: 20%;
   display: block;
