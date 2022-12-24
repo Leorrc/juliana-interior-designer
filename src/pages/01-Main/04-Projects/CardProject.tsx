@@ -34,7 +34,7 @@ export function CardProject({ imgUrl, onClick, modal, title }: CardProps) {
   return (
     <>
       <div className="flex flex-col text-center">
-        <h5 className="text-2xl text-baseCinza p-4 uppercase">
+        <h5 className="text-2xl text-baseCinza p-4">
           {title}
           <hr className="hrPro" />
         </h5>
