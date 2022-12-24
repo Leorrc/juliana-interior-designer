@@ -1,7 +1,7 @@
 [
   {
     "imgUrl": "/images/Projects/Capas/1.webp",
-    "title": "M&L",
+    "title": "Dormitório M&L",
     "modal": [
          "/images/Projects/Modal/01-MeL/1.jpg",
          "/images/Projects/Modal/01-MeL/2.jpg",
@@ -11,7 +11,7 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/2.webp",
-    "title": "Academia",
+    "title": "Academia S.R",
     "modal": [
          "/images/Projects/Modal/02-Academia/1.jpg",
          "/images/Projects/Modal/02-Academia/2.jpg",
@@ -20,7 +20,7 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/3.webp",
-    "title": "M&L Living",
+    "title": "Living M&L",
     "modal": [
          "/images/Projects/Modal/03-Living/1.jpg",
          "/images/Projects/Modal/03-Living/2.jpg",
@@ -47,7 +47,7 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/5.webp",
-    "title": "V&A",
+    "title": "Residencial V&A",
     "modal": [
          "/images/Projects/Modal/05-VA/1.jpg",
          "/images/Projects/Modal/05-VA/2.jpg",
@@ -64,7 +64,7 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/6.webp",
-    "title": "J&J",
+    "title": "Suíte J&J",
     "modal": [
          "/images/Projects/Modal/06-JJ/1.jpg",
          "/images/Projects/Modal/06-JJ/2.jpg",
@@ -73,7 +73,7 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/7.jpg",
-    "title": "Living AR",
+    "title": "Living A&R",
     "modal": [
          "/images/Projects/Modal/07-Living AR/1.jpg",
          "/images/Projects/Modal/07-Living AR/2.jpg",
