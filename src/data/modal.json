@@ -64,11 +64,30 @@
   },
   {
     "imgUrl": "/images/Projects/Capas/6.webp",
-    "title": "J J",
+    "title": "J&J",
     "modal": [
          "/images/Projects/Modal/06-JJ/1.jpg",
          "/images/Projects/Modal/06-JJ/2.jpg",
          "/images/Projects/Modal/06-JJ/3.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/7.jpg",
+    "title": "Living AR",
+    "modal": [
+         "/images/Projects/Modal/07-Living AR/1.jpg",
+         "/images/Projects/Modal/07-Living AR/2.jpg",
+         "/images/Projects/Modal/07-Living AR/3.jpg",
+         "/images/Projects/Modal/07-Living AR/4.jpg",
+         "/images/Projects/Modal/07-Living AR/5.jpg",
+         "/images/Projects/Modal/07-Living AR/6.jpg",
+         "/images/Projects/Modal/07-Living AR/7.jpg",
+         "/images/Projects/Modal/07-Living AR/8.jpg",
+         "/images/Projects/Modal/07-Living AR/9.jpg",
+         "/images/Projects/Modal/07-Living AR/10.jpg",
+         "/images/Projects/Modal/07-Living AR/11.jpg",
+         "/images/Projects/Modal/07-Living AR/12.jpg"
+
     ]
   }
 ]
