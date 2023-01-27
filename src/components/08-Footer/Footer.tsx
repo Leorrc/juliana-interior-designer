@@ -14,7 +14,7 @@ export function Footer() {
               © 2022 Site desenvolvido por{' '}
               <a
                 className="font-semibold"
-                href="https://my-page-silk.vercel.app/"
+                href="https://leocarvalhodev.com.br/"
                 target="_blank"
               >
                 Leonardo Carvalho DEV
