@@ -2,7 +2,7 @@
   <img src="./src/assets/2.png" width="300px"/>
 </div>
 
-# 👨🏻‍💻 Portfólio
+# 👨🏻‍💻 Web Site Design de Interiores
 
 - Um site pessoal para divulgação de seu trabalho pessoal. Construída utilizando React.js, TypeScript e TailwindCSS
 
