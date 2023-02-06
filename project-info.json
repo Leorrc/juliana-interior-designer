@@ -1,0 +1,5 @@
+{
+    "image": "https://raw.githubusercontent.com/leorrc/my-page/master/.github/screenshot-1.png",
+    "name": "Portfólio",
+    "description": "Um site feito em React para servir de portfólio e mostrar meus projetos que fiz até agora. Usei algumas tecnologias bem legais como o React.JS, TailwindCSS e ViteJS para o desenvolvimento rápido."
+}
