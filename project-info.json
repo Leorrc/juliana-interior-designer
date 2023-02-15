@@ -1,5 +1,7 @@
 {
     "image": "https://raw.githubusercontent.com/leorrc/juliana-interior-designer/master/.github/screenshot-1.png",
     "name": "Site Design de Interiores",
-    "description": "Um site pessoal para divulgação de seu trabalho pessoal. Construída utilizando React.js, TypeScript e TailwindCSS"
+    "description": "Um site pessoal para divulgação de seu trabalho pessoal, construída utilizando React.js, TypeScript e TailwindCSS",
+    "live": "https://www.dalcoldesign.com.br/",
+    "git": "https://github.com/Leorrc/juliana-interior-designer"
 }
