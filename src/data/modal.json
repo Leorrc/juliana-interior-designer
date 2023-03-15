@@ -3,93 +3,165 @@
     "imgUrl": "/images/Projects/Capas/1.webp",
     "title": "Dormitório M&L",
     "modal": [
-         "/images/Projects/Modal/01-MeL/1.jpg",
-         "/images/Projects/Modal/01-MeL/2.jpg",
-         "/images/Projects/Modal/01-MeL/3.jpg",
-         "/images/Projects/Modal/01-MeL/4.jpg"
+      "/images/Projects/Modal/01-MeL/1.jpg",
+      "/images/Projects/Modal/01-MeL/2.jpg",
+      "/images/Projects/Modal/01-MeL/3.jpg",
+      "/images/Projects/Modal/01-MeL/4.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/2.webp",
     "title": "Academia S.R",
     "modal": [
-         "/images/Projects/Modal/02-Academia/1.jpg",
-         "/images/Projects/Modal/02-Academia/2.jpg",
-         "/images/Projects/Modal/02-Academia/3.jpg"
+      "/images/Projects/Modal/02-Academia/1.jpg",
+      "/images/Projects/Modal/02-Academia/2.jpg",
+      "/images/Projects/Modal/02-Academia/3.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/3.webp",
     "title": "Living M&L",
     "modal": [
-         "/images/Projects/Modal/03-Living/1.jpg",
-         "/images/Projects/Modal/03-Living/2.jpg",
-         "/images/Projects/Modal/03-Living/3.jpg",
-         "/images/Projects/Modal/03-Living/4.jpg"
-       
+      "/images/Projects/Modal/03-Living/1.jpg",
+      "/images/Projects/Modal/03-Living/2.jpg",
+      "/images/Projects/Modal/03-Living/3.jpg",
+      "/images/Projects/Modal/03-Living/4.jpg"
     ]
-  }, 
+  },
   {
     "imgUrl": "/images/Projects/Capas/4.webp",
     "title": "Espaço Gourmet S.R",
     "modal": [
-         "/images/Projects/Modal/04-Sr/1.jpg",
-         "/images/Projects/Modal/04-Sr/2.jpg",
-         "/images/Projects/Modal/04-Sr/3.jpg",
-         "/images/Projects/Modal/04-Sr/4.jpg",
-         "/images/Projects/Modal/04-Sr/5.jpg",
-         "/images/Projects/Modal/04-Sr/6.jpg",
-         "/images/Projects/Modal/04-Sr/7.jpg",
-         "/images/Projects/Modal/04-Sr/8.jpg",
-         "/images/Projects/Modal/04-Sr/9.jpg",
-         "/images/Projects/Modal/04-Sr/10.jpg"
+      "/images/Projects/Modal/04-Sr/1.jpg",
+      "/images/Projects/Modal/04-Sr/2.jpg",
+      "/images/Projects/Modal/04-Sr/3.jpg",
+      "/images/Projects/Modal/04-Sr/4.jpg",
+      "/images/Projects/Modal/04-Sr/5.jpg",
+      "/images/Projects/Modal/04-Sr/6.jpg",
+      "/images/Projects/Modal/04-Sr/7.jpg",
+      "/images/Projects/Modal/04-Sr/8.jpg",
+      "/images/Projects/Modal/04-Sr/9.jpg",
+      "/images/Projects/Modal/04-Sr/10.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/5.webp",
     "title": "Residencial V&A",
     "modal": [
-         "/images/Projects/Modal/05-VA/1.jpg",
-         "/images/Projects/Modal/05-VA/2.jpg",
-         "/images/Projects/Modal/05-VA/3.jpg",
-         "/images/Projects/Modal/05-VA/4.jpg",
-         "/images/Projects/Modal/05-VA/5.jpg",
-         "/images/Projects/Modal/05-VA/6.jpg",
-         "/images/Projects/Modal/05-VA/7.jpg",
-         "/images/Projects/Modal/05-VA/8.jpg",
-         "/images/Projects/Modal/05-VA/9.jpg",
-         "/images/Projects/Modal/05-VA/10.jpg",
-         "/images/Projects/Modal/05-VA/11.jpg"   
+      "/images/Projects/Modal/05-VA/1.jpg",
+      "/images/Projects/Modal/05-VA/2.jpg",
+      "/images/Projects/Modal/05-VA/3.jpg",
+      "/images/Projects/Modal/05-VA/4.jpg",
+      "/images/Projects/Modal/05-VA/5.jpg",
+      "/images/Projects/Modal/05-VA/6.jpg",
+      "/images/Projects/Modal/05-VA/7.jpg",
+      "/images/Projects/Modal/05-VA/8.jpg",
+      "/images/Projects/Modal/05-VA/9.jpg",
+      "/images/Projects/Modal/05-VA/10.jpg",
+      "/images/Projects/Modal/05-VA/11.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/6.webp",
     "title": "Suíte J&J",
     "modal": [
-         "/images/Projects/Modal/06-JJ/1.jpg",
-         "/images/Projects/Modal/06-JJ/2.jpg",
-         "/images/Projects/Modal/06-JJ/3.jpg"
+      "/images/Projects/Modal/06-JJ/1.jpg",
+      "/images/Projects/Modal/06-JJ/2.jpg",
+      "/images/Projects/Modal/06-JJ/3.jpg"
     ]
   },
   {
     "imgUrl": "/images/Projects/Capas/7.jpg",
     "title": "Living A&R",
     "modal": [
-         "/images/Projects/Modal/07-Living AR/1.jpg",
-         "/images/Projects/Modal/07-Living AR/2.jpg",
-         "/images/Projects/Modal/07-Living AR/3.jpg",
-         "/images/Projects/Modal/07-Living AR/4.jpg",
-         "/images/Projects/Modal/07-Living AR/5.jpg",
-         "/images/Projects/Modal/07-Living AR/6.jpg",
-         "/images/Projects/Modal/07-Living AR/7.jpg",
-         "/images/Projects/Modal/07-Living AR/8.jpg",
-         "/images/Projects/Modal/07-Living AR/9.jpg",
-         "/images/Projects/Modal/07-Living AR/10.jpg",
-         "/images/Projects/Modal/07-Living AR/11.jpg",
-         "/images/Projects/Modal/07-Living AR/12.jpg"
-
+      "/images/Projects/Modal/07-Living AR/1.jpg",
+      "/images/Projects/Modal/07-Living AR/2.jpg",
+      "/images/Projects/Modal/07-Living AR/3.jpg",
+      "/images/Projects/Modal/07-Living AR/4.jpg",
+      "/images/Projects/Modal/07-Living AR/5.jpg",
+      "/images/Projects/Modal/07-Living AR/6.jpg",
+      "/images/Projects/Modal/07-Living AR/7.jpg",
+      "/images/Projects/Modal/07-Living AR/8.jpg",
+      "/images/Projects/Modal/07-Living AR/9.jpg",
+      "/images/Projects/Modal/07-Living AR/10.jpg",
+      "/images/Projects/Modal/07-Living AR/11.jpg",
+      "/images/Projects/Modal/07-Living AR/12.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/8.jpg",
+    "title": "Suíte Master 1 Y&L",
+    "modal": [
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/1.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/2.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/3.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/4.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/5.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/6.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/7.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/8.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/9.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/9.jpg",
+    "title": "Suíte Master 2 Y&L",
+    "modal": [
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/1.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/2.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/3.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/4.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/5.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/6.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/7.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/8.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/9.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/10.jpg",
+    "title": "Área De Serviço Y&L",
+    "modal": [
+      "/images/Projects/Modal/10-Área De Serviço Y&L/1.jpg",
+      "/images/Projects/Modal/10-Área De Serviço Y&L/2.jpg",
+      "/images/Projects/Modal/10-Área De Serviço Y&L/3.jpg",
+      "/images/Projects/Modal/10-Área De Serviço Y&L/4.jpg",
+      "/images/Projects/Modal/10-Área De Serviço Y&L/5.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/11.jpg",
+    "title": "Cozinha Y&L",
+    "modal": [
+      "/images/Projects/Modal/11-Cozinha Y&L/1.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/2.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/3.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/4.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/5.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/6.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/7.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/12.jpg",
+    "title": "BWC Suíte Master Y&L",
+    "modal": [
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/1.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/2.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/3.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/4.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/5.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/6.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/13.jpg",
+    "title": "Lavabo Y&L",
+    "modal": [
+      "/images/Projects/Modal/13-Lavabo Y&L/1.jpg",
+      "/images/Projects/Modal/13-Lavabo Y&L/2.jpg",
+      "/images/Projects/Modal/13-Lavabo Y&L/3.jpg",
+      "/images/Projects/Modal/13-Lavabo Y&L/4.jpg"
     ]
   }
 ]
-
-
