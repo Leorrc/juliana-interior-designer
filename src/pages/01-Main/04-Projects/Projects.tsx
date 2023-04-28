@@ -9,7 +9,7 @@ export function Projects() {
     <>
       <section className="py-40 bg-baseBege relative" id="projects">
         <div className="mx-6 pb-16">
-          <Eyebrow>MEUS PROJETOS.</Eyebrow>
+          <Eyebrow>MEUS PROJETOS</Eyebrow>
         </div>
 
         <div className="flex w-full px-1 flex-col items-center">

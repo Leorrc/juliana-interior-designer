@@ -163,5 +163,42 @@
       "/images/Projects/Modal/13-Lavabo Y&L/3.jpg",
       "/images/Projects/Modal/13-Lavabo Y&L/4.jpg"
     ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/14.jpg",
+    "title": "Closet Suíte Master Casa A.",
+    "modal": [
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/1.jpg",
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/2.jpg",
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/3.jpg",
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/4.jpg",
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/5.jpg",
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/6.jpg",
+      "/images/Projects/Modal/14-Closet Suíte Master Casa A/7.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/15.jpg",
+    "title": "Dormitório Menina Casa A.",
+    "modal": [
+      "/images/Projects/Modal/15-Dormitório Menina Casa A/1.jpg",
+      "/images/Projects/Modal/15-Dormitório Menina Casa A/2.jpg",
+      "/images/Projects/Modal/15-Dormitório Menina Casa A/3.jpg",
+      "/images/Projects/Modal/15-Dormitório Menina Casa A/4.jpg",
+      "/images/Projects/Modal/15-Dormitório Menina Casa A/5.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/16.jpg",
+    "title": "Suíte Menino Casa A.",
+    "modal": [
+      "/images/Projects/Modal/16-Suíte Menino Casa A/1.jpg",
+      "/images/Projects/Modal/16-Suíte Menino Casa A/2.jpg",
+      "/images/Projects/Modal/16-Suíte Menino Casa A/3.jpg",
+      "/images/Projects/Modal/16-Suíte Menino Casa A/4.jpg",
+      "/images/Projects/Modal/16-Suíte Menino Casa A/5.jpg",
+      "/images/Projects/Modal/16-Suíte Menino Casa A/6.jpg",
+      "/images/Projects/Modal/16-Suíte Menino Casa A/7.jpg"
+    ]
   }
 ]
