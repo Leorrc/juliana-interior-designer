@@ -11,7 +11,7 @@ export function Footer() {
           <hr className="w-full block bg-white" />
           <div className="mx-auto">
             <p className="text-bege-100">
-              © 2022 Site desenvolvido por{' '}
+              © 2023 Site desenvolvido por{' '}
               <a
                 className="font-semibold"
                 href="https://leocarvalhodev.com.br/"
