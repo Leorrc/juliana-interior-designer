@@ -57,28 +57,6 @@ export function Faq() {
               listar as principais necessidades a serem efetuadas.
             </p>
           </details>
-
-          <details>
-            <motion.summary
-              onClick={() => setIsActive(!isActive)}
-              className="list-none flex justify-between"
-            >
-              O orçamento é pago?
-              <motion.span
-                onClick={() => setIsActive(!isActive)}
-                animate={{
-                  rotate: isActive ? 180 : 0
-                }}
-              >
-                <FaAngleDown />
-              </motion.span>
-            </motion.summary>
-            <p className="mt-2 font-normal text-base text-black">
-              Não. O orçamento é enviado online após o primeiro contato com o
-              cliente, no prazo de 01 dia útil, contendo todas as informações
-              necessárias para início do projeto.
-            </p>
-          </details>
         </div>
       </section>
       <div className="divider-2"></div>
