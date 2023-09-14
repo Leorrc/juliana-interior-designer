@@ -115,16 +115,42 @@
     ]
   },
   {
-    "imgUrl": "/images/Projects/Capas/16.jpg",
-    "title": "Suíte Menino Casa A.",
+    "imgUrl": "/images/Projects/Capas/17.jpeg",
+    "title": "Living A.",
     "modal": [
-      "/images/Projects/Modal/16-Suíte Menino Casa A/1.jpg",
-      "/images/Projects/Modal/16-Suíte Menino Casa A/2.jpg",
-      "/images/Projects/Modal/16-Suíte Menino Casa A/3.jpg",
-      "/images/Projects/Modal/16-Suíte Menino Casa A/4.jpg",
-      "/images/Projects/Modal/16-Suíte Menino Casa A/5.jpg",
-      "/images/Projects/Modal/16-Suíte Menino Casa A/6.jpg",
-      "/images/Projects/Modal/16-Suíte Menino Casa A/7.jpg"
+      "/images/Projects/Modal/17-LIVING A/1.jpeg",
+      "/images/Projects/Modal/17-LIVING A/2.jpeg",
+      "/images/Projects/Modal/17-LIVING A/3.jpeg",
+      "/images/Projects/Modal/17-LIVING A/4.jpeg",
+      "/images/Projects/Modal/17-LIVING A/5.jpeg",
+      "/images/Projects/Modal/17-LIVING A/6.jpeg",
+      "/images/Projects/Modal/17-LIVING A/7.jpeg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/18.jpg",
+    "title": "Salão de Festas N.",
+    "modal": [
+      "/images/Projects/Modal/18-SALÃO DE FESTAS N/1.jpg",
+      "/images/Projects/Modal/18-SALÃO DE FESTAS N/2.jpg",
+      "/images/Projects/Modal/18-SALÃO DE FESTAS N/3.jpg",
+      "/images/Projects/Modal/18-SALÃO DE FESTAS N/4.jpg",
+      "/images/Projects/Modal/18-SALÃO DE FESTAS N/5.jpg",
+      "/images/Projects/Modal/18-SALÃO DE FESTAS N/6.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/19.jpg",
+    "title": "Salão de Festas P.",
+    "modal": [
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/1.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/2.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/3.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/4.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/5.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/6.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/7.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/8.jpg"
     ]
   }
 ]
