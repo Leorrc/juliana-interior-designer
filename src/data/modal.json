@@ -4,11 +4,11 @@
     "title": "Living A.",
     "modal": [
       "/images/Projects/Modal/17-LIVING A/1.jpeg",
-      "/images/Projects/Modal/17-LIVING A/2.jpeg",
-      "/images/Projects/Modal/17-LIVING A/3.jpeg",
-      "/images/Projects/Modal/17-LIVING A/4.jpeg",
+      "/images/Projects/Modal/17-LIVING A/2.png",
+      "/images/Projects/Modal/17-LIVING A/3.png",
+      "/images/Projects/Modal/17-LIVING A/4.png",
       "/images/Projects/Modal/17-LIVING A/5.jpeg",
-      "/images/Projects/Modal/17-LIVING A/6.jpeg",
+      "/images/Projects/Modal/17-LIVING A/6.png",
       "/images/Projects/Modal/17-LIVING A/7.jpeg"
     ]
   },
@@ -29,11 +29,11 @@
     "title": "Salão de Festas P.",
     "modal": [
       "/images/Projects/Modal/19-SALÃO DE FESTAS P/1.jpg",
-      "/images/Projects/Modal/19-SALÃO DE FESTAS P/2.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/2.png",
       "/images/Projects/Modal/19-SALÃO DE FESTAS P/3.jpg",
       "/images/Projects/Modal/19-SALÃO DE FESTAS P/4.jpg",
-      "/images/Projects/Modal/19-SALÃO DE FESTAS P/5.jpg",
-      "/images/Projects/Modal/19-SALÃO DE FESTAS P/6.jpg",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/5.png",
+      "/images/Projects/Modal/19-SALÃO DE FESTAS P/6.png",
       "/images/Projects/Modal/19-SALÃO DE FESTAS P/7.jpg",
       "/images/Projects/Modal/19-SALÃO DE FESTAS P/8.jpg"
     ]
@@ -103,9 +103,7 @@
       "/images/Projects/Modal/07-Living AR/7.jpg",
       "/images/Projects/Modal/07-Living AR/8.jpg",
       "/images/Projects/Modal/07-Living AR/9.jpg",
-      "/images/Projects/Modal/07-Living AR/10.jpg",
-      "/images/Projects/Modal/07-Living AR/11.jpg",
-      "/images/Projects/Modal/07-Living AR/12.jpg"
+      "/images/Projects/Modal/07-Living AR/10.jpg"
     ]
   },
   {
@@ -114,7 +112,6 @@
     "modal": [
       "/images/Projects/Modal/10-Área De Serviço Y&L/1.jpg",
       "/images/Projects/Modal/10-Área De Serviço Y&L/2.jpg",
-      "/images/Projects/Modal/10-Área De Serviço Y&L/3.jpg",
       "/images/Projects/Modal/10-Área De Serviço Y&L/4.jpg"
     ]
   },
