@@ -10,14 +10,18 @@ interface ServicesProps {
 export function Services() {
   return (
     <>
-      <section className="py-40 bg-bege-600" id="services">
+      <section className="bg-bege-600 py-40" id="services">
         <header className="mx-6">
           <Eyebrow>Serviços</Eyebrow>
         </header>
-        <div className="grid mx-6 my-8 justify-center ">
+        <div className="mx-6 my-8 grid justify-center ">
           <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-10">
-            {services.map(cards => (
-              <Card icon={cards.icon} description={cards.description} />
+            {services.map((cards, index) => (
+              <Card
+                key={index}
+                icon={cards.icon}
+                description={cards.description}
+              />
             ))}
           </div>
         </div>
@@ -30,13 +34,13 @@ export function Services() {
 const Card = ({ icon, description }: ServicesProps) => {
   return (
     <>
-      <div className="max-w-sm rounded overflow-hidden  cursor-pointer">
-        <div className="min-w-56 max-w-[250px] px-6 py-4 mx-auto flex flex-col gap-2">
-          <div className="w-20 h-20 fa fa-cog">
-            <img className="text-baseCinza" src={icon}></img>
+      <div className="max-w-sm cursor-pointer overflow-hidden  rounded">
+        <div className="min-w-56 mx-auto flex max-w-[250px] flex-col gap-2 px-6 py-4">
+          <div className="fa fa-cog h-20 w-20">
+            <img className="text-baseCinza" src={icon} alt="index" />
           </div>
           <hr className="hrCard" />
-          <p className="text-baseCinza text-center text-[16px]">
+          <p className="text-center text-[16px] text-baseCinza">
             {description}
           </p>
         </div>

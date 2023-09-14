@@ -19,6 +19,16 @@
     ]
   },
   {
+    "imgUrl": "/images/Projects/Capas/3.webp",
+    "title": "Living M&L",
+    "modal": [
+      "/images/Projects/Modal/03-Living/1.jpg",
+      "/images/Projects/Modal/03-Living/2.jpg",
+      "/images/Projects/Modal/03-Living/3.jpg",
+      "/images/Projects/Modal/03-Living/4.jpg"
+    ]
+  },
+  {
     "imgUrl": "/images/Projects/Capas/4.webp",
     "title": "Espaço Gourmet S.R",
     "modal": [
@@ -52,6 +62,15 @@
     ]
   },
   {
+    "imgUrl": "/images/Projects/Capas/6.webp",
+    "title": "Suíte J&J",
+    "modal": [
+      "/images/Projects/Modal/06-JJ/1.jpg",
+      "/images/Projects/Modal/06-JJ/2.jpg",
+      "/images/Projects/Modal/06-JJ/3.jpg"
+    ]
+  },
+  {
     "imgUrl": "/images/Projects/Capas/7.jpg",
     "title": "Living A&R",
     "modal": [
@@ -70,13 +89,44 @@
     ]
   },
   {
+    "imgUrl": "/images/Projects/Capas/8.jpg",
+    "title": "Suíte Master  Y&L",
+    "modal": [
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/1.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/2.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/3.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/4.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/5.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/6.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/7.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/8.jpg",
+      "/images/Projects/Modal/08-Suíte Master 1 Y&L/9.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/9.jpg",
+    "title": "Suíte Hóspedes Y&L",
+    "modal": [
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/1.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/2.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/3.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/4.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/5.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/6.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/7.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/8.jpg",
+      "/images/Projects/Modal/09-Suíte Master 2 Y&L/9.jpg"
+    ]
+  },
+  {
     "imgUrl": "/images/Projects/Capas/10.jpg",
     "title": "Área De Serviço Y&L",
     "modal": [
       "/images/Projects/Modal/10-Área De Serviço Y&L/1.jpg",
       "/images/Projects/Modal/10-Área De Serviço Y&L/2.jpg",
       "/images/Projects/Modal/10-Área De Serviço Y&L/3.jpg",
-      "/images/Projects/Modal/10-Área De Serviço Y&L/4.jpg"
+      "/images/Projects/Modal/10-Área De Serviço Y&L/4.jpg",
+      "/images/Projects/Modal/10-Área De Serviço Y&L/5.jpg"
     ]
   },
   {
@@ -87,7 +137,31 @@
       "/images/Projects/Modal/11-Cozinha Y&L/2.jpg",
       "/images/Projects/Modal/11-Cozinha Y&L/3.jpg",
       "/images/Projects/Modal/11-Cozinha Y&L/4.jpg",
-      "/images/Projects/Modal/11-Cozinha Y&L/5.jpg"
+      "/images/Projects/Modal/11-Cozinha Y&L/5.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/6.jpg",
+      "/images/Projects/Modal/11-Cozinha Y&L/7.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/12.jpg",
+    "title": "BWC Suíte Master Y&L",
+    "modal": [
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/1.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/2.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/3.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/4.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/5.jpg",
+      "/images/Projects/Modal/12-BWC Suíte Master Y&L/6.jpg"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/13.jpg",
+    "title": "Lavabo Y&L",
+    "modal": [
+      "/images/Projects/Modal/13-Lavabo Y&L/1.jpg",
+      "/images/Projects/Modal/13-Lavabo Y&L/2.jpg",
+      "/images/Projects/Modal/13-Lavabo Y&L/3.jpg",
+      "/images/Projects/Modal/13-Lavabo Y&L/4.jpg"
     ]
   },
   {

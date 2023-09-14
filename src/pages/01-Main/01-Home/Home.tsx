@@ -1,25 +1,21 @@
 import { Slider, SliderProps, Slide } from './Slider'
 import imgsHome from '../../../data/SliderHome.json'
 
-interface ImgsHomeProps {
-  imgUrl?: string
-}
-
-export function Home({ imgUrl }: ImgsHomeProps) {
+export function Home() {
   const settings: SliderProps = {
     spaceBetween: 30,
     slidesPerView: 1,
     navigation: true,
     pagination: {
-      clickable: true
+      clickable: true,
     },
     grabCursor: true,
     loop: true,
     preloadImages: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
-    }
+      disableOnInteraction: false,
+    },
   }
 
   return (
@@ -28,9 +24,9 @@ export function Home({ imgUrl }: ImgsHomeProps) {
 
       <span
         className="
-      text-[52px]  text-baseVerde font-extrabold 
-      absolute word_back z-[90] right-12 top-[700px] 
-      md:text-9xl md:top-[750px] md:italic 
+      word_back  absolute right-12 
+      top-[700px] z-[90] text-[52px] font-extrabold text-baseVerde 
+      md:top-[750px] md:text-9xl md:italic 
       lg:mix-blend-overlay
     xl:text-twice/50 "
       >
@@ -38,9 +34,9 @@ export function Home({ imgUrl }: ImgsHomeProps) {
       </span>
 
       <Slider settings={settings}>
-        {imgsHome.map(imgs => (
-          <Slide>
-            <img src={imgs.imgUrl} />
+        {imgsHome.map((imgs, index) => (
+          <Slide key={index}>
+            <img src={imgs.imgUrl} alt="index" />
           </Slide>
         ))}
       </Slider>

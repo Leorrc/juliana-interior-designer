@@ -1,13 +1,10 @@
 import ScrollToTopButton from './components/commons/ScrollTopButton'
 import './styles/global.css'
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
 import { Header } from './components/01-Header/Header'
 import { Contact } from './components/07-Contact/Contact'
 import { Footer } from './components/08-Footer/Footer'
 import { Main } from './pages/01-Main'
-import { Projects } from './pages/01-Main/04-Projects/Projects'
 
 export function App() {
   return (

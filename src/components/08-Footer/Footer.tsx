@@ -1,14 +1,15 @@
+// eslint-disable-next-line import/no-absolute-path
 import kk from '/images/Logos/logoFooter.png'
 
 export function Footer() {
   return (
     <>
-      <footer className="bg-cinza-100 mx-auto xl:px-20 lg:px-12 sm:px-6 px-4 py-12">
+      <footer className="mx-auto bg-cinza-100 px-4 py-12 sm:px-6 lg:px-12 xl:px-20">
         <div className="grid gap-8">
-          <div className="max-w-xs mx-auto">
-            <img className="" src={kk}></img>
+          <div className="mx-auto max-w-xs">
+            <img src={kk} alt="Logo Footer" />
           </div>
-          <hr className="w-full block bg-white" />
+          <hr className="block w-full bg-white" />
           <div className="mx-auto">
             <p className="text-bege-100">
               © 2023 Site desenvolvido por{' '}
@@ -16,6 +17,7 @@ export function Footer() {
                 className="font-semibold"
                 href="https://leocarvalhodev.com.br/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Leonardo Carvalho DEV
               </a>

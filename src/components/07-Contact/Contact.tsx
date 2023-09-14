@@ -9,12 +9,12 @@ export function Contact() {
         <div className="md:mx-6">
           <Eyebrow>Contato</Eyebrow>
         </div>
-        <div className="flex flex-col mt-8 lg:flex-row md:flex lg:mt-16 lg:gap-16 lg:justify-evenly">
-          <div className="flex flex-col justify-center md:order-0 lg:ml-4">
-            <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-              <div className="absolute inset-0 bg-baseVerde shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl "></div>
-              <div className="relative px-4 py-10 bg-baseCinza shadow-lg sm:rounded-3xl sm:p-10">
-                <div className="max-w-md mx-auto">
+        <div className="mt-8 flex flex-col md:flex lg:mt-16 lg:flex-row lg:justify-evenly lg:gap-16">
+          <div className="md:order-0 flex flex-col justify-center lg:ml-4">
+            <div className="relative py-3 sm:mx-auto sm:max-w-xl">
+              <div className="absolute inset-0 -skew-y-6 transform bg-baseVerde shadow-lg sm:-rotate-6 sm:skew-y-0 sm:rounded-3xl "></div>
+              <div className="relative bg-baseCinza px-4 py-10 shadow-lg sm:rounded-3xl sm:p-10">
+                <div className="mx-auto max-w-md">
                   <div>
                     <h1 className="text-3xl  text-twice">
                       Solicite seu orçamento
@@ -23,19 +23,19 @@ export function Contact() {
                   </div>
                   <div className="divide-y divide-gray-200">
                     <form
-                      className="pt-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7 -mb-8"
+                      className="-mb-8 space-y-4 pt-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7"
                       action="https://formsubmit.co/dalcoldesign@hotmail.com"
                       method="POST"
                     >
                       <label
-                        className="block uppercase tracking-wide text-twice text-xs mb-2"
+                        className="mb-2 block text-xs uppercase tracking-wide text-twice"
                         htmlFor="grid-first-name"
                       >
                         Nome <span className="text-twice">*</span>
                       </label>
                       <input
                         required
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                        className="mb-3 block w-full appearance-none rounded border bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:bg-white focus:outline-none"
                         id="grid-first-name"
                         type="text"
                         name="name"
@@ -43,14 +43,14 @@ export function Contact() {
                       />
 
                       <label
-                        className="block uppercase tracking-wide text-twice text-xs  mb-2"
+                        className="mb-2 block text-xs uppercase tracking-wide  text-twice"
                         htmlFor="grid-first-name"
                       >
                         Email <span className="text-twice">*</span>
                       </label>
                       <input
                         required
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                        className="mb-3 block w-full appearance-none rounded border bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:bg-white focus:outline-none"
                         id="grid-first-name"
                         type="email"
                         name="email"
@@ -58,7 +58,7 @@ export function Contact() {
                       />
 
                       <label
-                        className="block uppercase tracking-wide text-twice text-xs  mb-2"
+                        className="mb-2 block text-xs uppercase tracking-wide  text-twice"
                         htmlFor="grid-first-name"
                       >
                         Mensagem <span className="text-twice">*</span>
@@ -66,7 +66,7 @@ export function Contact() {
                       <textarea
                         required
                         name="message"
-                        className="resize-y py-3 px-4 border rounded-md w-full bg-gray-200 focus:outline-none focus:bg-white"
+                        className="w-full resize-y rounded-md border bg-gray-200 py-3 px-4 focus:bg-white focus:outline-none"
                         placeholder="Sua mensagem..."
                       ></textarea>
                       <input type="hidden" name="_captcha" value="false" />
@@ -77,7 +77,7 @@ export function Contact() {
                       />
 
                       <div className="flex items-end justify-end pb-3">
-                        <button className="bg-baseVerde hover:bg-verde-300 transition-colors text-twice font-semibold py-2 px-4 rounded">
+                        <button className="rounded bg-baseVerde py-2 px-4 font-semibold text-twice transition-colors hover:bg-verde-300">
                           ENVIAR
                         </button>
                       </div>
@@ -92,22 +92,22 @@ export function Contact() {
             <div className="v1"></div>
           </div>
 
-          <div className="flex flex-col mt-16 mx-auto gap-4 mb-8 md:mb-0 md:order-2 md:self-center lg:mx-0 ">
+          <div className="mx-auto mt-16 mb-8 flex flex-col gap-4 md:order-2 md:mb-0 md:self-center lg:mx-0 ">
             <div className="flex items-center gap-2 ">
               <a
                 href="https://wa.link/mni507"
-                className="text-4xl text-card md:text-5xl lg:text-6xl hover:text-cinza-300 transition-colors cursor-pointer "
+                className="cursor-pointer text-4xl text-card transition-colors hover:text-cinza-300 md:text-5xl lg:text-6xl "
               >
                 <FaPhoneSquareAlt />
               </a>
-              <h2 className="text-lg md:text-3xl lg:text-3xl text-baseCinza cursor-pointer">
+              <h2 className="cursor-pointer text-lg text-baseCinza md:text-3xl lg:text-3xl">
                 (47) 9 9611-6189
               </h2>
             </div>
 
             <div className="flex items-center gap-2">
-              <IoMdMail className="text-4xl text-card md:text-5xl lg:text-6xl hover:text-cinza-400 transition-colors cursor-pointer" />
-              <h2 className="text-lg md:text-3xl lg:text-3xl text-baseCinza cursor-pointer">
+              <IoMdMail className="cursor-pointer text-4xl text-card transition-colors hover:text-cinza-400 md:text-5xl lg:text-6xl" />
+              <h2 className="cursor-pointer text-lg text-baseCinza md:text-3xl lg:text-3xl">
                 dalcoldesign@hotmail.com
               </h2>
             </div>
@@ -117,17 +117,18 @@ export function Contact() {
                 href="https://www.instagram.com/dalcoldesign/"
                 target="_blank"
                 className="flex items-center gap-1"
+                rel="noreferrer"
               >
-                <FaInstagram className="text-4xl text-card md:text-5xl lg:text-6xl hover:text-cinza-400 transition-colors cursor-pointer" />
-                <h2 className="text-lg md:text-3xl lg:text-3xl text-baseCinza cursor-pointer">
+                <FaInstagram className="cursor-pointer text-4xl text-card transition-colors hover:text-cinza-400 md:text-5xl lg:text-6xl" />
+                <h2 className="cursor-pointer text-lg text-baseCinza md:text-3xl lg:text-3xl">
                   @dalcoldesign
                 </h2>
               </a>
             </div>
 
             <div className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-4xl text-card md:text-5xl lg:text-6xl hover:text-cinza-400 transition-colors cursor-pointer" />
-              <h2 className="text-lg md:text-3xl lg:text-3xl text-baseCinza cursor-pointer">
+              <FaMapMarkerAlt className="cursor-pointer text-4xl text-card transition-colors hover:text-cinza-400 md:text-5xl lg:text-6xl" />
+              <h2 className="cursor-pointer text-lg text-baseCinza md:text-3xl lg:text-3xl">
                 Balneário Camboriú, Santa Catarina
               </h2>
             </div>

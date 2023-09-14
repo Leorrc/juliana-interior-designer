@@ -1,34 +1,34 @@
+/* eslint-disable import/no-absolute-path */
 import aa from '/images/works/aboutPhoto.webp'
 import logoAbout from '/images/Logos/logoSpin.png'
 
 import { Eyebrow } from '../../../components/commons/Eyebrow'
 
-// font-thin absolute left-24 top-[1370px]
 export function About() {
   return (
     <>
-      <section className="py-20 overflow-hidden bg-bege-100 md:py-40">
+      <section className="overflow-hidden bg-bege-100 py-20 md:py-40">
         <div className="mx-6">
           <Eyebrow>Sobre mim</Eyebrow>
         </div>
 
-        <div className="containerL pt-8 grid gap-8  md:grid-flow-col xl:gap-0">
-          <div className="animate-spin-slow w-52 h-52 mx-auto xl:mt-16 xl:w-62 xl:h-62">
+        <div className="containerL grid gap-8 pt-8  md:grid-flow-col xl:gap-0">
+          <div className="mx-auto h-52 w-52 animate-spin-slow xl:mt-16 xl:h-62 xl:w-62">
             <img src={logoAbout} alt="" />
           </div>
 
-          <div className="max-w-md mx-auto">
-            <div className="grid relative max-w-xs mx-auto">
-              <span className="text-8xl text-center text-baseVerde/30 font-fontAbout absolute z-0 -top-[5%] right-[1%]">
+          <div className="mx-auto max-w-md">
+            <div className="relative mx-auto grid max-w-xs">
+              <span className="absolute -top-[5%] right-[1%] z-0 text-center font-fontAbout text-8xl text-baseVerde/30">
                 Juliana Dal Col
               </span>
 
-              <h1 className="text-[40px] font-semibold text-center text-baseCinza relative">
+              <h1 className="relative text-center text-[40px] font-semibold text-baseCinza">
                 Juliana Dal Col
               </h1>
             </div>
 
-            <div className="mt-8 text-base text-justify ">
+            <div className="mt-8 text-justify text-base ">
               <p>
                 Sou Designer de Interiores formada pela Universidade do Vale do
                 Itajaí do campus de Balneário Camboriú.
@@ -49,9 +49,9 @@ export function About() {
             </div>
           </div>
 
-          <div className="relative max-w-[350px] mx-auto  ">
+          <div className="relative mx-auto max-w-[350px]  ">
             <span className="fundoImg"></span>
-            <img className="rounded-lg relative " src={aa} alt="" />
+            <img className="relative rounded-lg " src={aa} alt="" />
           </div>
         </div>
       </section>

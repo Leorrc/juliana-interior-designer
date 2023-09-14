@@ -2,13 +2,13 @@
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx,html}',
-    './node_modules/tw-elements/dist/js/**/*.js'
+    './node_modules/tw-elements/dist/js/**/*.js',
   ],
   theme: {
     extend: {
       animation: {
         'spin-slow': 'spin 55s linear infinite',
-        'bouce-2': 'bounce 1s infinite'
+        'bouce-2': 'bounce 1s infinite',
       },
       container: {
         center: true,
@@ -18,29 +18,29 @@ module.exports = {
           md: '2.5rem',
           lg: '2rem',
           xl: '2rem',
-          '2xl': '3rem'
-        }
+          '2xl': '3rem',
+        },
       },
       fontFamily: {
         display: ['Montserrat, sans-serif'],
         display2: ['Work Sans, sans-serif'],
         body: ['Outfit', 'sans-serif'],
-        fontAbout: ['FontAbout']
+        fontAbout: ['FontAbout'],
       },
       backgroundImage: {
         'hero-pattern': "url('/works/hero-home.jpg')",
         'service-pattern': "url('/Helps/bg-services.svg')",
         'service-pattern2': "url('/Helps/wave4.svg')",
-        'faq-pattern': "url('/Helps/fundo20.svg')"
+        'faq-pattern': "url('/Helps/fundo20.svg')",
       },
       zIndex: {
-        100: '100'
+        100: '100',
       },
       spacing: {
         18: '72px',
         22: '88px',
         30: '120px',
-        62: '248px'
+        62: '248px',
       },
       colors: {
         transparent: 'transparent',
@@ -61,7 +61,7 @@ module.exports = {
           400: '#AAAB9B',
           300: '#A1A08E',
           200: '#979682',
-          100: '#8C8B75'
+          100: '#8C8B75',
         },
 
         bege: {
@@ -70,7 +70,7 @@ module.exports = {
           400: '#DEDFDA',
           300: '#DAD9D5',
           200: '#D6D5D1',
-          100: '#D2D1CC'
+          100: '#D2D1CC',
         },
 
         cinza: {
@@ -79,10 +79,10 @@ module.exports = {
           400: '#818183',
           300: '#717173',
           200: '#626264',
-          100: '#525154'
-        }
-      }
-    }
+          100: '#525154',
+        },
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }

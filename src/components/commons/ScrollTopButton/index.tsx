@@ -1,9 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { FaAngleUp } from 'react-icons/fa'
+import { useEffect, useState } from 'react'
 import { Container } from './styles'
-
-import { BsArrowUpShort } from 'react-icons/bs'
-import { RiArrowUpSLine } from 'react-icons/ri'
 import { VscArrowSmallUp } from 'react-icons/vsc'
 
 export default function ScrollToTopButton() {
@@ -22,7 +18,7 @@ export default function ScrollToTopButton() {
   const goToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
     })
   }
 
