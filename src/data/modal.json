@@ -39,6 +39,54 @@
     ]
   },
   {
+    "imgUrl": "/images/Projects/Capas/20.jpg",
+    "title": "Loja LH",
+    "modal": [
+      "/images/Projects/Modal/Loja LH/1.png",
+      "/images/Projects/Modal/Loja LH/2.png",
+      "/images/Projects/Modal/Loja LH/3.png",
+      "/images/Projects/Modal/Loja LH/4.png",
+      "/images/Projects/Modal/Loja LH/5.png",
+      "/images/Projects/Modal/Loja LH/6.png",
+      "/images/Projects/Modal/Loja LH/7.png",
+      "/images/Projects/Modal/Loja LH/8.png",
+      "/images/Projects/Modal/Loja LH/9.png",
+      "/images/Projects/Modal/Loja LH/10.png"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/21.jpg",
+    "title": "Salão De Festas W",
+    "modal": [
+      "/images/Projects/Modal/Salão De Festas W/1.png",
+      "/images/Projects/Modal/Salão De Festas W/2.png",
+      "/images/Projects/Modal/Salão De Festas W/3.png",
+      "/images/Projects/Modal/Salão De Festas W/4.png",
+      "/images/Projects/Modal/Salão De Festas W/5.png"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/22.jpg",
+    "title": "Suíte Hóspedes M",
+    "modal": [
+      "/images/Projects/Modal/Suíte Hóspedes M/1.png",
+      "/images/Projects/Modal/Suíte Hóspedes M/2.png",
+      "/images/Projects/Modal/Suíte Hóspedes M/3.png",
+      "/images/Projects/Modal/Suíte Hóspedes M/4.png"
+    ]
+  },
+  {
+    "imgUrl": "/images/Projects/Capas/23.jpg",
+    "title": "Suíte Master M",
+    "modal": [
+      "/images/Projects/Modal/Suíte Master M/1.png",
+      "/images/Projects/Modal/Suíte Master M/2.png",
+      "/images/Projects/Modal/Suíte Master M/3.png",
+      "/images/Projects/Modal/Suíte Master M/4.png",
+      "/images/Projects/Modal/Suíte Master M/5.png"
+    ]
+  },
+  {
     "imgUrl": "/images/Projects/Capas/1.webp",
     "title": "Dormitório M&L",
     "modal": [
@@ -113,16 +161,6 @@
       "/images/Projects/Modal/10-Área De Serviço Y&L/1.jpg",
       "/images/Projects/Modal/10-Área De Serviço Y&L/2.jpg",
       "/images/Projects/Modal/10-Área De Serviço Y&L/4.jpg"
-    ]
-  },
-  {
-    "imgUrl": "/images/Projects/Capas/11.jpg",
-    "title": "Cozinha Y&L",
-    "modal": [
-      "/images/Projects/Modal/11-Cozinha Y&L/1.jpg",
-      "/images/Projects/Modal/11-Cozinha Y&L/2.jpg",
-      "/images/Projects/Modal/11-Cozinha Y&L/3.jpg",
-      "/images/Projects/Modal/11-Cozinha Y&L/4.jpg"
     ]
   },
   {
