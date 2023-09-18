@@ -1,5 +1,5 @@
 /* eslint-disable import/no-absolute-path */
-import aa from '/images/works/aboutPhoto.webp'
+import aa from '/images/works/sobre.png'
 import logoAbout from '/images/Logos/logoSpin.png'
 
 import { Eyebrow } from '../../../components/commons/Eyebrow'
